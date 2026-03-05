@@ -1,0 +1,23 @@
+# Document Parsing Libraries
+
+# Docling + VLM Parser
+docling>=2.0.0
+docling-ibm-models>=2.0.0
+
+# Google Gemini Parser
+google-cloud-documentai>=3.10.0
+google-auth>=2.0.0
+
+# Unstructured.io Parser (requires tesseract: brew install tesseract)
+unstructured[all-docs]>=0.10.0
+
+# pdfplumber Parser
+pdfplumber>=0.10.0
+Pillow>=10.0.0
+
+# Common utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# System dependencies:
+# - tesseract OCR: brew install tesseract (for unstructured hi_res strategy)

@@ -1,0 +1,2146 @@
+{
+  "pages": [
+    {
+      "pageNumber": 1,
+      "image": {
+        "content": "... (base64 image, 509692 chars) ...",
+        "width": 1758,
+        "height": 2275
+      }
+    },
+    {
+      "pageNumber": 2,
+      "image": {
+        "content": "... (base64 image, 855252 chars) ...",
+        "width": 1758,
+        "height": 2275
+      }
+    }
+  ],
+  "documentLayout": {
+    "blocks": [
+      {
+        "blockId": "1",
+        "textBlock": {
+          "text": "Index Overview",
+          "type": "paragraph"
+        },
+        "pageSpan": {
+          "pageStart": 1,
+          "pageEnd": 1
+        },
+        "boundingBox": {
+          "normalizedVertices": [
+            {
+              "x": 0.05972696,
+              "y": 0.068571426
+            },
+            {
+              "x": 0.05972696,
+              "y": 0.07824176
+            },
+            {
+              "x": 0.18600683,
+              "y": 0.07824176
+            },
+            {
+              "x": 0.18600683,
+              "y": 0.068571426
+            }
+          ]
+        }
+      },
+      {
+        "blockId": "2",
+        "textBlock": {
+          "text": "S&P 500\u00b0 Price Index",
+          "type": "heading-1",
+          "blocks": [
+            {
+              "blockId": "3",
+              "textBlock": {
+                "text": "The first U.S. market-cap-weighted stock market index\u00b9 As of 12/31/23",
+                "type": "paragraph"
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              },
+              "boundingBox": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.058589306,
+                    "y": 0.16395605
+                  },
+                  {
+                    "x": 0.058589306,
+                    "y": 0.19472528
+                  },
+                  {
+                    "x": 0.53697383,
+                    "y": 0.19472528
+                  },
+                  {
+                    "x": 0.53697383,
+                    "y": 0.16395605
+                  }
+                ]
+              }
+            },
+            {
+              "blockId": "4",
+              "textBlock": {
+                "text": "Objective",
+                "type": "heading-2",
+                "blocks": [
+                  {
+                    "blockId": "5",
+                    "textBlock": {
+                      "text": "Capture equity performance from large-cap U.S. equities",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.058589306,
+                          "y": 0.23472528
+                        },
+                        {
+                          "x": 0.058589306,
+                          "y": 0.24615385
+                        },
+                        {
+                          "x": 0.4795222,
+                          "y": 0.24615385
+                        },
+                        {
+                          "x": 0.4795222,
+                          "y": 0.23472528
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              },
+              "boundingBox": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.058020476,
+                    "y": 0.21362637
+                  },
+                  {
+                    "x": 0.058020476,
+                    "y": 0.2276923
+                  },
+                  {
+                    "x": 0.13594994,
+                    "y": 0.2276923
+                  },
+                  {
+                    "x": 0.13594994,
+                    "y": 0.21362637
+                  }
+                ]
+              }
+            },
+            {
+              "blockId": "6",
+              "textBlock": {
+                "text": "Approach",
+                "type": "heading-2",
+                "blocks": [
+                  {
+                    "blockId": "7",
+                    "textBlock": {
+                      "text": "Market cap weighted",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05745165,
+                          "y": 0.27956045
+                        },
+                        {
+                          "x": 0.05745165,
+                          "y": 0.2901099
+                        },
+                        {
+                          "x": 0.21274175,
+                          "y": 0.2901099
+                        },
+                        {
+                          "x": 0.21274175,
+                          "y": 0.27956045
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              },
+              "boundingBox": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.058020476,
+                    "y": 0.2589011
+                  },
+                  {
+                    "x": 0.058020476,
+                    "y": 0.2725275
+                  },
+                  {
+                    "x": 0.13879408,
+                    "y": 0.2725275
+                  },
+                  {
+                    "x": 0.13879408,
+                    "y": 0.2589011
+                  }
+                ]
+              }
+            },
+            {
+              "blockId": "8",
+              "textBlock": {
+                "text": "Holdings",
+                "type": "heading-2",
+                "blocks": [
+                  {
+                    "blockId": "9",
+                    "textBlock": {
+                      "text": "500 large-cap companies (503 constituents)",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.058020476,
+                          "y": 0.32527474
+                        },
+                        {
+                          "x": 0.058020476,
+                          "y": 0.33582416
+                        },
+                        {
+                          "x": 0.38850966,
+                          "y": 0.33582416
+                        },
+                        {
+                          "x": 0.38850966,
+                          "y": 0.32527474
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              },
+              "boundingBox": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.058020476,
+                    "y": 0.30549452
+                  },
+                  {
+                    "x": 0.058020476,
+                    "y": 0.31912088
+                  },
+                  {
+                    "x": 0.13026166,
+                    "y": 0.31912088
+                  },
+                  {
+                    "x": 0.13026166,
+                    "y": 0.30549452
+                  }
+                ]
+              }
+            },
+            {
+              "blockId": "10",
+              "textBlock": {
+                "text": "Features",
+                "type": "heading-2",
+                "blocks": [
+                  {
+                    "blockId": "11",
+                    "textBlock": {
+                      "text": "S&P DJI estimates that $11.4 trillion was indexed or benchmarked to the S&P 500^{\\circ}, with indexed (or passively managed) assets making up approximately $5.7 trillion of this total",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05745165,
+                          "y": 0.3701099
+                        },
+                        {
+                          "x": 0.05745165,
+                          "y": 0.42417583
+                        },
+                        {
+                          "x": 0.48350397,
+                          "y": 0.42417583
+                        },
+                        {
+                          "x": 0.48350397,
+                          "y": 0.3701099
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 1
+              },
+              "boundingBox": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.05631399,
+                    "y": 0.35076922
+                  },
+                  {
+                    "x": 0.05631399,
+                    "y": 0.36439562
+                  },
+                  {
+                    "x": 0.12741752,
+                    "y": 0.36439562
+                  },
+                  {
+                    "x": 0.12741752,
+                    "y": 0.35076922
+                  }
+                ]
+              }
+            },
+            {
+              "blockId": "12",
+              "textBlock": {
+                "text": "Ticker",
+                "type": "heading-2",
+                "blocks": [
+                  {
+                    "blockId": "13",
+                    "textBlock": {
+                      "text": "SPX",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.055745166,
+                          "y": 0.4435165
+                        },
+                        {
+                          "x": 0.055745166,
+                          "y": 0.46945056
+                        },
+                        {
+                          "x": 0.1109215,
+                          "y": 0.46945056
+                        },
+                        {
+                          "x": 0.1109215,
+                          "y": 0.4435165
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "14",
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.81569964,
+                          "y": 0.04131868
+                        },
+                        {
+                          "x": 0.81569964,
+                          "y": 0.15164836
+                        },
+                        {
+                          "x": 0.9442548,
+                          "y": 0.15164836
+                        },
+                        {
+                          "x": 0.9442548,
+                          "y": 0.04131868
+                        }
+                      ]
+                    },
+                    "imageBlock": {
+                      "mimeType": "image/png",
+                      "imageText": "Nationwide\u00ae is on your side",
+                      "annotations": {
+                        "description": "Here's a description of the image and conclusions based on the provided content:\n\n**a) Describe the image to allow a human to understand its content and list all facts and conclusions that can be derived from it.**\n\nThe image displays the logo of \"Nationwide\". The logo consists of a large, bold, blue letter \"N\" with the silhouette of an eagle's wings and head in flight superimposed over it, also in blue, but with white outlining to give it definition. The eagle's body and tail extend below the base of the \"N\". Below the graphic, the word \"Nationwide\" is written in a bold, sans-serif font, with a registered trademark symbol (\u00ae) next to it. Beneath \"Nationwide\", the tagline \"is on your side\" is written in a smaller, sans-serif font.\n\n**b) Make an effort to include all facts that can be derived from the image.**\n\n*   The image presents the official logo for a brand named \"Nationwide\".\n*   The logo incorporates the letter \"N\" and an eagle.\n*   The primary colors used in the logo are blue and white.\n*   The brand uses the tagline \"is on your side\".\n*   \"Nationwide\" is a registered trademark, indicated by the \u00ae symbol.\n\n**e) Please omit information that you might be uncertain about.**\n\nNo interpretations or assumptions have been made beyond what is visually present in the image and explicitly stated in the extracted text."
+                      },
+                      "blobAssetId": "blob_1"
+                    }
+                  },
+                  {
+                    "blockId": "15",
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.51194537,
+                          "y": 0.2145055
+                        },
+                        {
+                          "x": 0.51194537,
+                          "y": 0.43032968
+                        },
+                        {
+                          "x": 0.9442548,
+                          "y": 0.43032968
+                        },
+                        {
+                          "x": 0.9442548,
+                          "y": 0.2145055
+                        }
+                      ]
+                    },
+                    "imageBlock": {
+                      "mimeType": "image/png",
+                      "imageText": "Top five constituents Apple Microsoft NVIDIA amazon Alphabet As of 12/31/23",
+                      "annotations": {
+                        "description": "This image is titled \"Top five constituents\" and presents the logos of five major technology companies. These companies are identified as Apple, Microsoft, NVIDIA, Amazon, and Alphabet. The image indicates that this information is \"As of 12/31/23\".\n\nFrom the provided context of \"S&P 500\u00b0 Price Index\" and \"Ticker\", it can be inferred that these \"Top five constituents\" likely refer to the five largest companies by market capitalization within the S&P 500 index as of December 31, 2023. These companies are:\n1. Apple\n2. Microsoft\n3. NVIDIA\n4. Amazon\n5. Alphabet"
+                      },
+                      "blobAssetId": "blob_2"
+                    }
+                  },
+                  {
+                    "blockId": "16",
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.06313993,
+                          "y": 0.498022
+                        },
+                        {
+                          "x": 0.06313993,
+                          "y": 0.869011
+                        },
+                        {
+                          "x": 0.94254833,
+                          "y": 0.869011
+                        },
+                        {
+                          "x": 0.94254833,
+                          "y": 0.498022
+                        }
+                      ]
+                    },
+                    "imageBlock": {
+                      "mimeType": "image/png",
+                      "imageText": "$1,040 $920 $800 $680 $560 $440 $320 $200 $100 $80 Compound annual growth rate 8.05% 1993 1994 1995 1996 1997 1998 1999 2000 2001 (12/31/1993 - 12/31/2023) Historical performance 2002 2003 2004 2005 Past performance is not an indication or guarantee of future results. 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 201 2019 2020 2021 2022 2023",
+                      "annotations": {
+                        "description": "The image displays a line graph showing the historical performance of an investment over a period of 30 years, from December 31, 1993, to December 31, 2023. The chart is titled \"Historical performance\" with the date range \"(12/31/1993 - 12/31/2023)\".\n\nThe y-axis represents value in dollars, ranging from $80 to $1,040, with increments that are not uniform but include values like $80, $100, $200, $320, $440, $560, $680, $800, $920, and $1,040. The x-axis represents years, from 1993 to 2023, with each year marked.\n\nThe blue shaded area under the line graph illustrates the performance. The starting value in late 1993 appears to be around $100.\nKey observations from the graph:\n*   **1993-2000 (Dot-com boom and bust):** The value steadily increases from $100 in 1993, reaching a peak of over $320 around early 2000, before experiencing a significant decline, bottoming out around $200 in late 2002/early 2003.\n*   **2003-2007 (Recovery):** The value recovers and rises again, reaching another peak of roughly $320-$350 around late 2007.\n*   **2008-2009 (Financial Crisis):** A sharp decline occurs, with the value dropping to under $200 in late 2008/early 2009.\n*   **2009-2023 (Long-term growth):** Following the 2008-2009 dip, the value shows a consistent upward trend, with some fluctuations. It surpasses the previous peaks around 2013-2014. The growth accelerates significantly in the latter half of this period, particularly from 2016 onwards.\n*   **Recent Performance:** The value reaches its highest point near $1,040 around 2021-2022, then experiences a dip, and recovers towards the end of 2023, finishing near its all-time high shown for the period.\n\nThe graph states a \"Compound annual growth rate 8.05%\".\nA disclaimer at the bottom reads: \"Past performance is not an indication or guarantee of future results.\""
+                      },
+                      "blobAssetId": "blob_3"
+                    }
+                  },
+                  {
+                    "blockId": "17",
+                    "textBlock": {
+                      "text": "1S&P 500 replaced S&P 90 and launched on March 4, 1957.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.058020476,
+                          "y": 0.92
+                        },
+                        {
+                          "x": 0.058020476,
+                          "y": 0.9287912
+                        },
+                        {
+                          "x": 0.38964733,
+                          "y": 0.9287912
+                        },
+                        {
+                          "x": 0.38964733,
+                          "y": 0.92
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "18",
+                    "textBlock": {
+                      "text": "This material provides information on The S&P 500\u00ae Price Index for Nationwide Defined Protection\u00ae Annuity 2.0 and should be used in conjunction with the materials for this product.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 1,
+                      "pageEnd": 1
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05688282,
+                          "y": 0.93494505
+                        },
+                        {
+                          "x": 0.05688282,
+                          "y": 0.95252746
+                        },
+                        {
+                          "x": 0.9379977,
+                          "y": 0.95252746
+                        },
+                        {
+                          "x": 0.9379977,
+                          "y": 0.93494505
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "pageSpan": {
+                "pageStart": 1,
+                "pageEnd": 2
+              },
+              "boundingBox": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.05745165,
+                    "y": 0.44043955
+                  },
+                  {
+                    "x": 0.05745165,
+                    "y": 0.45406595
+                  },
+                  {
+                    "x": 0.10750853,
+                    "y": 0.45406595
+                  },
+                  {
+                    "x": 0.10750853,
+                    "y": 0.44043955
+                  }
+                ]
+              }
+            },
+            {
+              "blockId": "19",
+              "textBlock": {
+                "text": "Annual performance",
+                "type": "heading-2"
+              },
+              "pageSpan": {
+                "pageStart": 2,
+                "pageEnd": 2
+              },
+              "boundingBox": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.12741752,
+                    "y": 0.024615385
+                  },
+                  {
+                    "x": 0.12741752,
+                    "y": 0.03956044
+                  },
+                  {
+                    "x": 0.29692832,
+                    "y": 0.03956044
+                  },
+                  {
+                    "x": 0.29692832,
+                    "y": 0.024615385
+                  }
+                ]
+              }
+            },
+            {
+              "blockId": "20",
+              "textBlock": {
+                "text": "Sector breakdown\u00b9",
+                "type": "heading-2",
+                "blocks": [
+                  {
+                    "blockId": "21",
+                    "tableBlock": {
+                      "bodyRows": [
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "22",
+                                  "textBlock": {
+                                    "text": "Year",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13253698,
+                                        "y": 0.06813187
+                                      },
+                                      {
+                                        "x": 0.13253698,
+                                        "y": 0.077362634
+                                      },
+                                      {
+                                        "x": 0.17292377,
+                                        "y": 0.077362634
+                                      },
+                                      {
+                                        "x": 0.17292377,
+                                        "y": 0.06813187
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "23",
+                                  "textBlock": {
+                                    "text": "Annual return",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.24687144,
+                                        "y": 0.076043956
+                                      },
+                                      {
+                                        "x": 0.24687144,
+                                        "y": 0.0843956
+                                      },
+                                      {
+                                        "x": 0.29522184,
+                                        "y": 0.0843956
+                                      },
+                                      {
+                                        "x": 0.29522184,
+                                        "y": 0.076043956
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "24",
+                                  "textBlock": {
+                                    "text": "2014",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13538112,
+                                        "y": 0.1010989
+                                      },
+                                      {
+                                        "x": 0.13538112,
+                                        "y": 0.108571425
+                                      },
+                                      {
+                                        "x": 0.17178611,
+                                        "y": 0.108571425
+                                      },
+                                      {
+                                        "x": 0.17178611,
+                                        "y": 0.1010989
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "25",
+                                  "textBlock": {
+                                    "text": "11.39%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.24744028,
+                                        "y": 0.10021978
+                                      },
+                                      {
+                                        "x": 0.24744028,
+                                        "y": 0.108571425
+                                      },
+                                      {
+                                        "x": 0.2940842,
+                                        "y": 0.108571425
+                                      },
+                                      {
+                                        "x": 0.2940842,
+                                        "y": 0.10021978
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "26",
+                                  "textBlock": {
+                                    "text": "2015",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13594994,
+                                        "y": 0.12615384
+                                      },
+                                      {
+                                        "x": 0.13594994,
+                                        "y": 0.13362637
+                                      },
+                                      {
+                                        "x": 0.17064847,
+                                        "y": 0.13362637
+                                      },
+                                      {
+                                        "x": 0.17064847,
+                                        "y": 0.12615384
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "27",
+                                  "textBlock": {
+                                    "text": "-0.73%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.24630262,
+                                        "y": 0.12571429
+                                      },
+                                      {
+                                        "x": 0.24630262,
+                                        "y": 0.13362637
+                                      },
+                                      {
+                                        "x": 0.2963595,
+                                        "y": 0.13362637
+                                      },
+                                      {
+                                        "x": 0.2963595,
+                                        "y": 0.12571429
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "28",
+                                  "textBlock": {
+                                    "text": "2016",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13481228,
+                                        "y": 0.15076923
+                                      },
+                                      {
+                                        "x": 0.13481228,
+                                        "y": 0.1578022
+                                      },
+                                      {
+                                        "x": 0.17121729,
+                                        "y": 0.1578022
+                                      },
+                                      {
+                                        "x": 0.17121729,
+                                        "y": 0.15076923
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "29",
+                                  "textBlock": {
+                                    "text": "9.54%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.2480091,
+                                        "y": 0.14989011
+                                      },
+                                      {
+                                        "x": 0.2480091,
+                                        "y": 0.15824176
+                                      },
+                                      {
+                                        "x": 0.29351535,
+                                        "y": 0.15824176
+                                      },
+                                      {
+                                        "x": 0.29351535,
+                                        "y": 0.14989011
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "30",
+                                  "textBlock": {
+                                    "text": "2017",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.1370876,
+                                        "y": 0.17626373
+                                      },
+                                      {
+                                        "x": 0.1370876,
+                                        "y": 0.18329671
+                                      },
+                                      {
+                                        "x": 0.17121729,
+                                        "y": 0.18329671
+                                      },
+                                      {
+                                        "x": 0.17121729,
+                                        "y": 0.17626373
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "31",
+                                  "textBlock": {
+                                    "text": "19.42%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.24516496,
+                                        "y": 0.17494506
+                                      },
+                                      {
+                                        "x": 0.24516496,
+                                        "y": 0.18329671
+                                      },
+                                      {
+                                        "x": 0.2963595,
+                                        "y": 0.18329671
+                                      },
+                                      {
+                                        "x": 0.2963595,
+                                        "y": 0.17494506
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "32",
+                                  "textBlock": {
+                                    "text": "2018",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13538112,
+                                        "y": 0.20043956
+                                      },
+                                      {
+                                        "x": 0.13538112,
+                                        "y": 0.20791209
+                                      },
+                                      {
+                                        "x": 0.17121729,
+                                        "y": 0.20791209
+                                      },
+                                      {
+                                        "x": 0.17121729,
+                                        "y": 0.20043956
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "33",
+                                  "textBlock": {
+                                    "text": "-6.24%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.24573378,
+                                        "y": 0.20087913
+                                      },
+                                      {
+                                        "x": 0.24573378,
+                                        "y": 0.20835164
+                                      },
+                                      {
+                                        "x": 0.29692832,
+                                        "y": 0.20835164
+                                      },
+                                      {
+                                        "x": 0.29692832,
+                                        "y": 0.20087913
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "34",
+                                  "textBlock": {
+                                    "text": "2019",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13481228,
+                                        "y": 0.22461538
+                                      },
+                                      {
+                                        "x": 0.13481228,
+                                        "y": 0.23252748
+                                      },
+                                      {
+                                        "x": 0.17178611,
+                                        "y": 0.23252748
+                                      },
+                                      {
+                                        "x": 0.17178611,
+                                        "y": 0.22461538
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "35",
+                                  "textBlock": {
+                                    "text": "28.88%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.24345848,
+                                        "y": 0.22505495
+                                      },
+                                      {
+                                        "x": 0.24345848,
+                                        "y": 0.23252748
+                                      },
+                                      {
+                                        "x": 0.298066,
+                                        "y": 0.23252748
+                                      },
+                                      {
+                                        "x": 0.298066,
+                                        "y": 0.22505495
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "36",
+                                  "textBlock": {
+                                    "text": "2020",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13367464,
+                                        "y": 0.24967033
+                                      },
+                                      {
+                                        "x": 0.13367464,
+                                        "y": 0.25758243
+                                      },
+                                      {
+                                        "x": 0.17292377,
+                                        "y": 0.25758243
+                                      },
+                                      {
+                                        "x": 0.17292377,
+                                        "y": 0.24967033
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "37",
+                                  "textBlock": {
+                                    "text": "16.26%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.24573378,
+                                        "y": 0.25010988
+                                      },
+                                      {
+                                        "x": 0.24573378,
+                                        "y": 0.25758243
+                                      },
+                                      {
+                                        "x": 0.29579067,
+                                        "y": 0.25758243
+                                      },
+                                      {
+                                        "x": 0.29579067,
+                                        "y": 0.25010988
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "38",
+                                  "textBlock": {
+                                    "text": "2021",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13538112,
+                                        "y": 0.2747253
+                                      },
+                                      {
+                                        "x": 0.13538112,
+                                        "y": 0.2821978
+                                      },
+                                      {
+                                        "x": 0.17064847,
+                                        "y": 0.2821978
+                                      },
+                                      {
+                                        "x": 0.17064847,
+                                        "y": 0.2747253
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "39",
+                                  "textBlock": {
+                                    "text": "26.89%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.24345848,
+                                        "y": 0.2747253
+                                      },
+                                      {
+                                        "x": 0.24345848,
+                                        "y": 0.2821978
+                                      },
+                                      {
+                                        "x": 0.29863483,
+                                        "y": 0.2821978
+                                      },
+                                      {
+                                        "x": 0.29863483,
+                                        "y": 0.2747253
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "40",
+                                  "textBlock": {
+                                    "text": "2022",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13538112,
+                                        "y": 0.29978022
+                                      },
+                                      {
+                                        "x": 0.13538112,
+                                        "y": 0.30681318
+                                      },
+                                      {
+                                        "x": 0.17235495,
+                                        "y": 0.30681318
+                                      },
+                                      {
+                                        "x": 0.17235495,
+                                        "y": 0.29978022
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "41",
+                                  "textBlock": {
+                                    "text": "-19.44%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.24232082,
+                                        "y": 0.29934067
+                                      },
+                                      {
+                                        "x": 0.24232082,
+                                        "y": 0.30769232
+                                      },
+                                      {
+                                        "x": 0.29977247,
+                                        "y": 0.30769232
+                                      },
+                                      {
+                                        "x": 0.29977247,
+                                        "y": 0.29934067
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        },
+                        {
+                          "cells": [
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "42",
+                                  "textBlock": {
+                                    "text": "2023",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.13424346,
+                                        "y": 0.3243956
+                                      },
+                                      {
+                                        "x": 0.13424346,
+                                        "y": 0.33186814
+                                      },
+                                      {
+                                        "x": 0.17235495,
+                                        "y": 0.33186814
+                                      },
+                                      {
+                                        "x": 0.17235495,
+                                        "y": 0.3243956
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            },
+                            {
+                              "blocks": [
+                                {
+                                  "blockId": "43",
+                                  "textBlock": {
+                                    "text": "24.23%",
+                                    "type": "paragraph"
+                                  },
+                                  "pageSpan": {
+                                    "pageStart": 2,
+                                    "pageEnd": 2
+                                  },
+                                  "boundingBox": {
+                                    "normalizedVertices": [
+                                      {
+                                        "x": 0.2440273,
+                                        "y": 0.3243956
+                                      },
+                                      {
+                                        "x": 0.2440273,
+                                        "y": 0.33186814
+                                      },
+                                      {
+                                        "x": 0.29749715,
+                                        "y": 0.33186814
+                                      },
+                                      {
+                                        "x": 0.29749715,
+                                        "y": 0.3243956
+                                      }
+                                    ]
+                                  }
+                                }
+                              ],
+                              "rowSpan": 1,
+                              "colSpan": 1
+                            }
+                          ]
+                        }
+                      ],
+                      "annotations": {
+                        "description": "This table presents the annual performance of the S&P 500 Price Index from 2014 to 2023, showing the yearly returns."
+                      }
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.091581345,
+                          "y": 0.04967033
+                        },
+                        {
+                          "x": 0.091581345,
+                          "y": 0.34065935
+                        },
+                        {
+                          "x": 0.3304892,
+                          "y": 0.34065935
+                        },
+                        {
+                          "x": 0.3304892,
+                          "y": 0.04967033
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "44",
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.42320818,
+                          "y": 0.043956045
+                        },
+                        {
+                          "x": 0.42320818,
+                          "y": 0.3701099
+                        },
+                        {
+                          "x": 0.87030715,
+                          "y": 0.3701099
+                        },
+                        {
+                          "x": 0.87030715,
+                          "y": 0.043956045
+                        }
+                      ]
+                    },
+                    "imageBlock": {
+                      "mimeType": "image/png",
+                      "imageText": "Real Estate Materials 2.40% Utilities 2.30% 2.50% Energy 3.90% Consumer Staples 6.20% Consumer Services 8.60% Industrials 8.80% Consumer Discretionary 10.90% Health Care 12.60% Information Technology 28.90% Financials 13.00%",
+                      "annotations": {
+                        "description": "This image is a pie chart illustrating the sector breakdown of the S&P 500 Price Index.\n\nHere's a breakdown of the information presented:\n\n*   **Information Technology** represents the largest sector at 28.90%.\n*   **Financials** is the second largest sector at 13.00%.\n*   **Health Care** accounts for 12.60% of the index.\n*   **Consumer Discretionary** makes up 10.90%.\n*   **Industrials** comprise 8.80%.\n*   **Consumer Services** account for 8.60%.\n*   **Consumer Staples** represent 6.20%.\n*   **Energy** is 3.90% of the index.\n*   **Real Estate** is 2.50%.\n*   **Materials** is 2.40%.\n*   **Utilities** is the smallest sector shown, at 2.30%.\n\nThe sum of all listed percentages is 28.90 + 13.00 + 12.60 + 10.90 + 8.80 + 8.60 + 6.20 + 3.90 + 2.50 + 2.40 + 2.30 = 100.10%. The slight discrepancy may be due to rounding of the individual percentages."
+                      },
+                      "blobAssetId": "blob_4"
+                    }
+                  },
+                  {
+                    "blockId": "45",
+                    "textBlock": {
+                      "text": "1 Based on GICS\u00ae sectors. The weightings for each sector of the index are rounded to the nearest tenth of a percent; therefore, the aggregate weights for the index may not equal 100%.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.058589306,
+                          "y": 0.41054946
+                        },
+                        {
+                          "x": 0.058589306,
+                          "y": 0.4312088
+                        },
+                        {
+                          "x": 0.9112628,
+                          "y": 0.4312088
+                        },
+                        {
+                          "x": 0.9112628,
+                          "y": 0.41054946
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "46",
+                    "textBlock": {
+                      "text": "The S&P 500 Price Index is widely regarded as the best",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.088737205,
+                          "y": 0.46417582
+                        },
+                        {
+                          "x": 0.088737205,
+                          "y": 0.47604397
+                        },
+                        {
+                          "x": 0.5386803,
+                          "y": 0.47604397
+                        },
+                        {
+                          "x": 0.5386803,
+                          "y": 0.46417582
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "47",
+                    "textBlock": {
+                      "text": "single gauge of large-cap U.S. equities. For more information, please visit https://us.spindices.com/indices/equity/sp-500",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.088168375,
+                          "y": 0.48
+                        },
+                        {
+                          "x": 0.088168375,
+                          "y": 0.50945055
+                        },
+                        {
+                          "x": 0.58987486,
+                          "y": 0.50945055
+                        },
+                        {
+                          "x": 0.58987486,
+                          "y": 0.48
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "48",
+                    "textBlock": {
+                      "text": "S&P Dow Jones Indices",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6837315,
+                          "y": 0.4531868
+                        },
+                        {
+                          "x": 0.6837315,
+                          "y": 0.4958242
+                        },
+                        {
+                          "x": 0.8964733,
+                          "y": 0.4958242
+                        },
+                        {
+                          "x": 0.8964733,
+                          "y": 0.4531868
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "49",
+                    "textBlock": {
+                      "text": "A Division of S&P Global",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.6808874,
+                          "y": 0.51032966
+                        },
+                        {
+                          "x": 0.6808874,
+                          "y": 0.5191209
+                        },
+                        {
+                          "x": 0.8498294,
+                          "y": 0.5191209
+                        },
+                        {
+                          "x": 0.8498294,
+                          "y": 0.51032966
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "50",
+                    "textBlock": {
+                      "text": "Nationwide\u00ae",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.12002275,
+                          "y": 0.5547253
+                        },
+                        {
+                          "x": 0.12002275,
+                          "y": 0.567033
+                        },
+                        {
+                          "x": 0.23663254,
+                          "y": 0.567033
+                        },
+                        {
+                          "x": 0.23663254,
+                          "y": 0.5547253
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "51",
+                    "textBlock": {
+                      "text": "is on your side",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.13936292,
+                          "y": 0.5687912
+                        },
+                        {
+                          "x": 0.13936292,
+                          "y": 0.57714283
+                        },
+                        {
+                          "x": 0.21615472,
+                          "y": 0.57714283
+                        },
+                        {
+                          "x": 0.21615472,
+                          "y": 0.5687912
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "52",
+                    "textBlock": {
+                      "text": "\u2022 Not a deposit Not FDIC or NCUSIF insured Not guaranteed by the institution Not insured by any federal government agency May lose value This material is not a recommendation to buy or sell a financial product or to adopt an investment strategy. Investors should discuss their specific situation with their financial professional.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05745165,
+                          "y": 0.60835165
+                        },
+                        {
+                          "x": 0.05745165,
+                          "y": 0.64835167
+                        },
+                        {
+                          "x": 0.9197952,
+                          "y": 0.64835167
+                        },
+                        {
+                          "x": 0.9197952,
+                          "y": 0.60835165
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "53",
+                    "textBlock": {
+                      "text": "This product is sold by prospectus. Carefully consider the investment objectives, risks, charges and expenses. The product prospectus contains this and other important information. Investors should read them carefully before investing. To request a copy, go to nationwide.com/prospectus or call 1-800-848-6331.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05631399,
+                          "y": 0.6545055
+                        },
+                        {
+                          "x": 0.05631399,
+                          "y": 0.683956
+                        },
+                        {
+                          "x": 0.91695106,
+                          "y": 0.683956
+                        },
+                        {
+                          "x": 0.91695106,
+                          "y": 0.6545055
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "54",
+                    "textBlock": {
+                      "text": "Index-linked annuity contracts are complicated investments. Prospective purchasers should consult with a financial professional about the Contract's features, benefits, risks, and fees and whether the contract is appropriate based upon his or her financial situation and objectives.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.055745166,
+                          "y": 0.6918681
+                        },
+                        {
+                          "x": 0.055745166,
+                          "y": 0.7120879
+                        },
+                        {
+                          "x": 0.9283276,
+                          "y": 0.7120879
+                        },
+                        {
+                          "x": 0.9283276,
+                          "y": 0.6918681
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "55",
+                    "textBlock": {
+                      "text": "Annuities have limitations. They are long-term vehicles designed for retirement purposes. They are not intended to replace emergency funds, to be used as income for day-to-day expenses or to fund short-term savings goals. Withdrawals are subject to income tax, and withdrawals before age 59\u00bd may be subject to a 10% early withdrawal federal tax penalty. Please read the contract for complete details.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.055745166,
+                          "y": 0.7178022
+                        },
+                        {
+                          "x": 0.055745166,
+                          "y": 0.749011
+                        },
+                        {
+                          "x": 0.9294653,
+                          "y": 0.749011
+                        },
+                        {
+                          "x": 0.9294653,
+                          "y": 0.7178022
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "56",
+                    "textBlock": {
+                      "text": "Nationwide Defined Protection\u00ae Annuity 2.0 is an individual single purchase payment deferred annuity with index-linked strategies issued by Nationwide Life Insurance Company, Columbus, Ohio. The general distributor is Nationwide Investment Services Corporation, Member FINRA. Please note that the Nationwide Defined Protection\u00ae Annuity 2.0 does not directly invest in an index. The product includes index strategies which follow market performance; however, they are not actual investments in the stock market.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05745165,
+                          "y": 0.75516486
+                        },
+                        {
+                          "x": 0.05745165,
+                          "y": 0.7973626
+                        },
+                        {
+                          "x": 0.9334471,
+                          "y": 0.7973626
+                        },
+                        {
+                          "x": 0.9334471,
+                          "y": 0.75516486
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "57",
+                    "textBlock": {
+                      "text": "This Index does not include income from any dividends paid by component companies. The exclusion of dividends from an Index may lower the Index Performance, particularly over the course of time.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05688282,
+                          "y": 0.8043956
+                        },
+                        {
+                          "x": 0.05688282,
+                          "y": 0.82461536
+                        },
+                        {
+                          "x": 0.9146758,
+                          "y": 0.82461536
+                        },
+                        {
+                          "x": 0.9146758,
+                          "y": 0.8043956
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "58",
+                    "textBlock": {
+                      "text": "Guarantees and protections referenced within are subject to the claims-paying ability of Nationwide Life Insurance Company. Neither Nationwide nor any of its affiliates are affiliated with The S&P 500\u00ae Price Index nor any of its affiliates.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05631399,
+                          "y": 0.83032966
+                        },
+                        {
+                          "x": 0.05631399,
+                          "y": 0.8536264
+                        },
+                        {
+                          "x": 0.77303755,
+                          "y": 0.8536264
+                        },
+                        {
+                          "x": 0.77303755,
+                          "y": 0.83032966
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "59",
+                    "textBlock": {
+                      "text": "The \"S&P 500\" is a product of S&P Dow Jones Indices LLC (\"SPDJI\"), and has been licensed for use by Nationwide Life and Annuity Insurance Company (\"Nationwide\"). Standard & Poor's\u00ae, S&P\u00ae and S&P 500 are registered trademarks of Standard & Poor's Financial Services LLC (\"S&P\"); DJIA\u00ae, The Dow\u00ae, Dow Jones\u00ae and Dow Jones Industrial Average are trademarks of Dow Jones Trademark Holdings LLC (\"Dow Jones\"); and these trademarks have been licensed for use by SPDJI and sublicensed for certain purposes by Nationwide. Nationwide Defined Protection\u00ae Annuity 2.0 is not sponsored, endorsed, sold or promoted by SPDJI, Dow Jones, S&P, their respective affiliates, and none of such parties make any representation regarding the advisability of investing in such product(s) nor do they have any liability for any errors, omissions, or interruptions of the S&P 500.",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05631399,
+                          "y": 0.85934067
+                        },
+                        {
+                          "x": 0.05631399,
+                          "y": 0.92615384
+                        },
+                        {
+                          "x": 0.93230945,
+                          "y": 0.92615384
+                        },
+                        {
+                          "x": 0.93230945,
+                          "y": 0.85934067
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "60",
+                    "textBlock": {
+                      "text": "Nationwide, the Nationwide N and Eagle, Nationwide is on your side, and Nationwide Defined Protection are service marks of Nationwide Mutual Mutual Insurance Company. \u00a92024 Nationwide",
+                      "type": "paragraph"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.05631399,
+                          "y": 0.930989
+                        },
+                        {
+                          "x": 0.05631399,
+                          "y": 0.95164835
+                        },
+                        {
+                          "x": 0.92491466,
+                          "y": 0.95164835
+                        },
+                        {
+                          "x": 0.92491466,
+                          "y": 0.930989
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "blockId": "61",
+                    "textBlock": {
+                      "text": "VAM-3852AO (5/24)",
+                      "type": "footer"
+                    },
+                    "pageSpan": {
+                      "pageStart": 2,
+                      "pageEnd": 2
+                    },
+                    "boundingBox": {
+                      "normalizedVertices": [
+                        {
+                          "x": 0.058020476,
+                          "y": 0.9635165
+                        },
+                        {
+                          "x": 0.058020476,
+                          "y": 0.97406596
+                        },
+                        {
+                          "x": 0.19510807,
+                          "y": 0.97406596
+                        },
+                        {
+                          "x": 0.19510807,
+                          "y": 0.9635165
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "pageSpan": {
+                "pageStart": 2,
+                "pageEnd": 2
+              },
+              "boundingBox": {
+                "normalizedVertices": [
+                  {
+                    "x": 0.579636,
+                    "y": 0.025054945
+                  },
+                  {
+                    "x": 0.579636,
+                    "y": 0.03956044
+                  },
+                  {
+                    "x": 0.73435724,
+                    "y": 0.03956044
+                  },
+                  {
+                    "x": 0.73435724,
+                    "y": 0.025054945
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "pageSpan": {
+          "pageStart": 1,
+          "pageEnd": 1
+        },
+        "boundingBox": {
+          "normalizedVertices": [
+            {
+              "x": 0.06086462,
+              "y": 0.0989011
+            },
+            {
+              "x": 0.06086462,
+              "y": 0.14945056
+            },
+            {
+              "x": 0.6575654,
+              "y": 0.14945056
+            },
+            {
+              "x": 0.6575654,
+              "y": 0.0989011
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "blobAssets": [
+    {
+      "assetId": "blob_1",
+      "content": "... (base64 image, 18836 chars) ...",
+      "mimeType": "image/png"
+    },
+    {
+      "assetId": "blob_2",
+      "content": "... (base64 image, 90616 chars) ...",
+      "mimeType": "image/png"
+    },
+    {
+      "assetId": "blob_3",
+      "content": "... (base64 image, 152312 chars) ...",
+      "mimeType": "image/png"
+    },
+    {
+      "assetId": "blob_4",
+      "content": "... (base64 image, 122688 chars) ...",
+      "mimeType": "image/png"
+    }
+  ]
+}
