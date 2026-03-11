@@ -40,18 +40,23 @@ class GeminiParser:
         print(f"Parsing: {pdf_file.name}")
 
         # Configure layout parser
-        config = {"return_images": True, "return_bounding_boxes": True}
+        config = {
+            "return_images": False,
+            "return_bounding_boxes": False,
+        }
 
+        # Beta API features (table/image annotations, etc.)
         if self.use_beta:
             config.update({
                 "enable_table_annotation": True,
                 "enable_image_annotation": True,
-                "enable_image_extraction": True,
+                "enable_image_extraction": False,
+                "enable_table_split": True,
             })
 
         if self.enable_chunking:
             config["chunking_config"] = self.api.ProcessOptions.LayoutConfig.ChunkingConfig(
-                chunk_size=1024, include_ancestor_headings=True
+                chunk_size=500, include_ancestor_headings=True
             )
 
         # Process document
@@ -153,8 +158,8 @@ class GeminiParser:
         for i, chunk in enumerate(doc.chunked_document.chunks):
             lines.append(f"\n## Chunk {i}\n{chunk.content}\n")
             if chunk.page_span:
-                pages = [f"{s.page_start}-{s.page_end}" for s in chunk.page_span]
-                lines.append(f"**Pages:** {', '.join(pages)}\n")
+                # page_span is a single ChunkPageSpan object, not a list
+                lines.append(f"**Pages:** {chunk.page_span.page_start}-{chunk.page_span.page_end}\n")
         return "\n".join(lines)
 
 def main():

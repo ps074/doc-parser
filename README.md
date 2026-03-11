@@ -77,6 +77,25 @@ python parsers/docling/ollama_simple.py docs/VAM-3852AO.pdf
 python parsers/docling/ollama_verbose.py docs/VAM-3852AO.pdf
 ```
 
+### Test Docling + Ollama (Hybrid - ~12-27s)
+
+**Features:**
+- Parallel VLM processing (4 workers max)
+- In-place image descriptions (replaces `[IMAGE]` placeholders)
+- Fast text/table parsing without VLM overhead
+
+**Start Ollama first:**
+
+```bash
+ollama serve
+```
+
+**Then run:**
+
+```bash
+python parsers/docling/ollama_hybrid.py docs/VAM-3852AO.pdf
+```
+
 ---
 
 ## Output
@@ -90,7 +109,8 @@ output/
     ├── smolvlm/VAM-3852AO/VAM-3852AO.md
     ├── granite/VAM-3852AO/VAM-3852AO.md
     ├── ollama-simple/VAM-3852AO/VAM-3852AO.md
-    └── ollama-verbose/VAM-3852AO/VAM-3852AO.md
+    ├── ollama-verbose/VAM-3852AO/VAM-3852AO.md
+    └── ollama-hybrid/VAM-3852AO/VAM-3852AO.md
 ```
 
 ---

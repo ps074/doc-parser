@@ -32,6 +32,7 @@
 | **Document AI**                            | 23s ⚡    | ✅ Excellent | ✅ Good         | 95%             | Best overall                               |
 | **Unstructured**                           | 29s ⚡    | ⚠️ Basic    | ❌ Placeholder  | 75%             | Poor formatting                            |
 | **Docling + Ollama qwen3-vl:2b (simple)**  | 30-45s   | ✅ Good      | ✅ Good         | 90%             | Fast, concise descriptions                 |
+| **Docling + Ollama qwen3-vl:2b (hybrid)**  | 12-27s ⚡⚡ | ✅ Good      | ✅ Excellent    | 90%             | Parallel processing, verbose prompt        |
 | **Docling + Ollama qwen3-vl:2b (verbose)** | 261s     | ✅ Good      | ✅ Excellent    | 90%             | Slow, detailed analysis                    |
 
 
