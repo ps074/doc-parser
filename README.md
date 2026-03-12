@@ -33,10 +33,16 @@ rm -rf output/*
 python parsers/gemini_parser.py docs/VAM-3852AO.pdf --format json --beta
 ```
 
-### Test PDFPlumber
+### Test PDFPlumber (Full)
 
 ```bash
-python parsers/pdfplumber_parser.py docs/VAM-3852AO.pdf
+python parsers/pdfplumber/full.py docs/VAM-3852AO.pdf
+```
+
+### Test PDFPlumber (Basic)
+
+```bash
+python parsers/pdfplumber/basic.py docs/VAM-3852AO.pdf
 ```
 
 ### Test Unstructured
@@ -55,6 +61,12 @@ python parsers/docling/smolvlm.py docs/VAM-3852AO.pdf
 
 ```bash
 python parsers/docling/granite.py docs/VAM-3852AO.pdf
+```
+
+### Test Docling (Basic)
+
+```bash
+python parsers/docling/basic.py docs/VAM-3852AO.pdf
 ```
 
 ### Test Docling + Ollama (Simple - ~30s)
@@ -103,11 +115,14 @@ python parsers/docling/ollama_hybrid.py docs/VAM-3852AO.pdf
 ```
 output/
 ├── gemini/VAM-3852AO/VAM-3852AO.json
-├── pdfplumber/VAM-3852AO/VAM-3852AO.md
+├── pdfplumber/
+│   ├── VAM-3852AO/VAM-3852AO.md
+│   └── basic/VAM-3852AO/VAM-3852AO.md
 ├── unstructured/VAM-3852AO/VAM-3852AO.md
 └── docling/
     ├── smolvlm/VAM-3852AO/VAM-3852AO.md
     ├── granite/VAM-3852AO/VAM-3852AO.md
+    ├── basic/VAM-3852AO/VAM-3852AO.md
     ├── ollama-simple/VAM-3852AO/VAM-3852AO.md
     ├── ollama-verbose/VAM-3852AO/VAM-3852AO.md
     └── ollama-hybrid/VAM-3852AO/VAM-3852AO.md
