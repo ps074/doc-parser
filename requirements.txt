@@ -1,5 +1,12 @@
 # Document Parsing Libraries
 
+# Core pipeline (page_classifier + pipeline.py)
+PyMuPDF>=1.25.0
+pypdfium2>=4.0.0
+anthropic[vertex]>=0.40.0
+openai>=1.0.0
+google-genai>=1.0.0
+
 # Docling + VLM Parser
 docling>=2.0.0
 docling-ibm-models>=2.0.0

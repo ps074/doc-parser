@@ -18,7 +18,7 @@ from dataclasses import dataclass, asdict, field
 from enum import Enum
 from pathlib import Path
 
-import fitz
+import pymupdf as fitz
 
 
 class Complexity(str, Enum):
@@ -32,9 +32,9 @@ class Complexity(str, Enum):
 MODEL_ROUTING = {
     Complexity.SKIP: None,
     Complexity.SIMPLE: None,  # pypdfium2, no LLM needed
-    Complexity.MODERATE: "claude-haiku-4-5-20251001",
-    Complexity.COMPLEX: "claude-sonnet-4-20250514",
-    Complexity.CRITICAL: "claude-opus-4-20250514",
+    Complexity.MODERATE: "gpt-4.1-mini",        # GPT-4.1 mini for moderate pages
+    Complexity.COMPLEX: "claude-sonnet-4-20250514",  # Sonnet for complex (charts+tables)
+    Complexity.CRITICAL: "claude-sonnet-4-20250514", # Sonnet for critical (max accuracy)
 }
 
 
