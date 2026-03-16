@@ -45,6 +45,27 @@ python parsers/pdfplumber_parser.py docs/VAM-3852AO.pdf
 python parsers/unstructured_parser.py docs/VAM-3852AO.pdf
 ```
 
+### Test Docling Chunkers
+
+**HierarchicalChunker** (structure-preserving, one chunk per element):
+
+```bash
+python parsers/docling/chunker_hierarchical.py docs/VAM-3852AO.pdf
+```
+
+**HybridChunker** (token-aware, uses OpenAI text-embedding-3-small tokenizer):
+
+```bash
+python parsers/docling/chunker_hybrid.py docs/VAM-3852AO.pdf
+python parsers/docling/chunker_hybrid.py docs/VAM-3852AO.pdf --max-tokens 256
+```
+
+### Test Docling (Vanilla - No AI)
+
+```bash
+python parsers/docling/vanilla.py docs/VAM-3852AO.pdf
+```
+
 ### Test Docling + SmolVLM
 
 ```bash
@@ -106,6 +127,9 @@ output/
 ├── pdfplumber/VAM-3852AO/VAM-3852AO.md
 ├── unstructured/VAM-3852AO/VAM-3852AO.md
 └── docling/
+    ├── vanilla/VAM-3852AO/VAM-3852AO.md
+    ├── chunker-hierarchical/VAM-3852AO/VAM-3852AO.json
+    ├── chunker-hybrid/VAM-3852AO/VAM-3852AO.json
     ├── smolvlm/VAM-3852AO/VAM-3852AO.md
     ├── granite/VAM-3852AO/VAM-3852AO.md
     ├── ollama-simple/VAM-3852AO/VAM-3852AO.md
