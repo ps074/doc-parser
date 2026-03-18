@@ -1,0 +1,290 @@
+{
+  "documents": {
+    "VAM-3852AO": {
+      "pdf_path": "docs/VAM-3852AO.pdf",
+      "questions": [
+        {
+          "id": "vam_01",
+          "question": "What is the ticker symbol for the S&P 500 Price Index?",
+          "expected_keywords": ["SPX"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "vam_02",
+          "question": "What was the compound annual growth rate of the S&P 500 from 1993 to 2023?",
+          "expected_keywords": ["8.05%", "8.05"],
+          "answer_pages": [1],
+          "type": "chart_reading"
+        },
+        {
+          "id": "vam_03",
+          "question": "What was the annual return of the S&P 500 in 2022?",
+          "expected_keywords": ["-19.44%", "-19.44"],
+          "answer_pages": [2],
+          "type": "table_lookup"
+        },
+        {
+          "id": "vam_04",
+          "question": "What percentage of the S&P 500 is allocated to Information Technology?",
+          "expected_keywords": ["28.90%", "28.90", "28.9%"],
+          "answer_pages": [2],
+          "type": "chart_reading"
+        },
+        {
+          "id": "vam_05",
+          "question": "How many constituents does the S&P 500 index have?",
+          "expected_keywords": ["503"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "vam_06",
+          "question": "What are the top five constituents of the S&P 500?",
+          "expected_keywords": ["Apple", "Microsoft", "Amazon", "NVIDIA", "Alphabet"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "vam_07",
+          "question": "What was the best annual return year for the S&P 500 in the 2014-2023 period?",
+          "expected_keywords": ["2019", "28.88%"],
+          "answer_pages": [2],
+          "type": "table_reasoning"
+        },
+        {
+          "id": "vam_08",
+          "question": "What is the weight of the Energy sector in the S&P 500?",
+          "expected_keywords": ["3.90%", "3.9%"],
+          "answer_pages": [2],
+          "type": "chart_reading"
+        }
+      ]
+    },
+    "hubspot-q4": {
+      "pdf_path": "docs/hubspot-q4.pdf",
+      "questions": [
+        {
+          "id": "hub_01",
+          "question": "What was HubSpot's total revenue in Q4 2025?",
+          "expected_keywords": ["846.7", "846,746"],
+          "answer_pages": [1, 4],
+          "type": "factual"
+        },
+        {
+          "id": "hub_02",
+          "question": "What was HubSpot's non-GAAP operating margin in Q4 2025?",
+          "expected_keywords": ["22.6%", "22.6"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "hub_03",
+          "question": "How many customers did HubSpot have as of December 31, 2025?",
+          "expected_keywords": ["288,706"],
+          "answer_pages": [2],
+          "type": "factual"
+        },
+        {
+          "id": "hub_04",
+          "question": "What was HubSpot's total assets as of December 31, 2025?",
+          "expected_keywords": ["3,854,151"],
+          "answer_pages": [4],
+          "type": "table_lookup"
+        },
+        {
+          "id": "hub_05",
+          "question": "What was HubSpot's gross profit in Q4 2025?",
+          "expected_keywords": ["709,045"],
+          "answer_pages": [4, 5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "hub_06",
+          "question": "What was the cash and cash equivalents at end of period for HubSpot?",
+          "expected_keywords": ["884,945"],
+          "answer_pages": [5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "hub_07",
+          "question": "What is the expected total revenue for HubSpot's full year 2026?",
+          "expected_keywords": ["3.69", "3.70"],
+          "answer_pages": [3],
+          "type": "factual"
+        },
+        {
+          "id": "hub_08",
+          "question": "What was HubSpot's subscription revenue in Q4 2025?",
+          "expected_keywords": ["829.0", "828,980"],
+          "answer_pages": [1, 4],
+          "type": "factual"
+        },
+        {
+          "id": "hub_09",
+          "question": "What was HubSpot's net income per diluted share in Q4 2025?",
+          "expected_keywords": ["1.04"],
+          "answer_pages": [1, 5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "hub_10",
+          "question": "What was the share repurchase program amount authorized by HubSpot's board?",
+          "expected_keywords": ["1.0 billion"],
+          "answer_pages": [2],
+          "type": "factual"
+        }
+      ]
+    },
+    "hubspot-deck": {
+      "pdf_path": "docs/hubspot-deck.pdf",
+      "questions": [
+        {
+          "id": "deck_01",
+          "question": "What was HubSpot's total revenue in Q4 2025 from the investor deck?",
+          "expected_keywords": ["$847m", "847m", "$847"],
+          "answer_pages": [10],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_02",
+          "question": "What is HubSpot's revenue CAGR from Q1 2019 to Q4 2025?",
+          "expected_keywords": ["29%"],
+          "answer_pages": [14],
+          "type": "chart_reading"
+        },
+        {
+          "id": "deck_03",
+          "question": "What was the full year 2025 total revenue for HubSpot?",
+          "expected_keywords": ["$3,131m", "3,131"],
+          "answer_pages": [11],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_04",
+          "question": "What is HubSpot's long-term operating profit margin target?",
+          "expected_keywords": ["25%"],
+          "answer_pages": [18],
+          "type": "chart_reading"
+        },
+        {
+          "id": "deck_05",
+          "question": "What was the full year 2025 free cash flow?",
+          "expected_keywords": ["$595m", "595m", "$595"],
+          "answer_pages": [11],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_06",
+          "question": "What is HubSpot's customer count CAGR from Q1 2019 to Q4 2025?",
+          "expected_keywords": ["26%"],
+          "answer_pages": [15],
+          "type": "chart_reading"
+        },
+        {
+          "id": "deck_07",
+          "question": "What is HubSpot's cash position?",
+          "expected_keywords": ["$1.8B", "1.8B"],
+          "answer_pages": [17],
+          "type": "factual"
+        },
+        {
+          "id": "deck_08",
+          "question": "What is the Q1 2026 total revenue guidance range?",
+          "expected_keywords": ["$862m", "$863m", "862", "863"],
+          "answer_pages": [12],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_09",
+          "question": "What was the full year 2025 operating profit margin?",
+          "expected_keywords": ["19%"],
+          "answer_pages": [11],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_10",
+          "question": "What is HubSpot's operating profit CAGR from Q1 2019 to Q4 2025?",
+          "expected_keywords": ["49%"],
+          "answer_pages": [16],
+          "type": "chart_reading"
+        },
+        {
+          "id": "deck_11",
+          "question": "What was the full year 2026 guidance for total revenue?",
+          "expected_keywords": ["$3,690m", "$3,700m", "3,690", "3,700"],
+          "answer_pages": [13],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_12",
+          "question": "What is the 2027 operating profit margin target?",
+          "expected_keywords": ["20-22%", "20%", "22%"],
+          "answer_pages": [18],
+          "type": "chart_reading"
+        }
+      ]
+    },
+    "2023_report_40_pages": {
+      "pdf_path": "docs/2023_report_40_pages.pdf",
+      "questions": [
+        {
+          "id": "cabo_01",
+          "question": "What is Cable One's ticker symbol?",
+          "expected_keywords": ["CABO"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_02",
+          "question": "What is Cable One's Commission File Number?",
+          "expected_keywords": ["001-36863"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_03",
+          "question": "How many shares of common stock were outstanding as of February 16, 2024?",
+          "expected_keywords": ["5,619,109"],
+          "answer_pages": [2],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_04",
+          "question": "What was the aggregate market value of Cable One's stock held by non-affiliates?",
+          "expected_keywords": ["3.7 billion"],
+          "answer_pages": [2],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_05",
+          "question": "What percentage of Cable One's total revenues came from residential data in 2023?",
+          "expected_keywords": ["58.4%", "58.4"],
+          "answer_pages": [5],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_06",
+          "question": "How many homes did Cable One pass as of December 31, 2023?",
+          "expected_keywords": ["2.8 million"],
+          "answer_pages": [5],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_07",
+          "question": "In which state is Cable One's principal executive office located?",
+          "expected_keywords": ["Arizona", "Phoenix"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_08",
+          "question": "What are Cable One's brand names?",
+          "expected_keywords": ["Sparklight", "Hargray"],
+          "answer_pages": [5],
+          "type": "factual"
+        }
+      ]
+    }
+  }
+}

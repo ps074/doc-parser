@@ -1,0 +1,3089 @@
+[
+  {
+    "chunker": "page_level",
+    "parser": "pipeline",
+    "num_docs": 4,
+    "avg_num_chunks": 10.8,
+    "avg_chunk_tokens": 2562.1,
+    "recall@1": 0.423,
+    "recall@3": 0.819,
+    "recall@5": 0.906,
+    "recall@10": 0.906,
+    "per_document": [
+      {
+        "chunker": "page_level",
+        "num_chunks": 1,
+        "avg_chunk_tokens": 1473.0,
+        "min_chunk_tokens": 1473,
+        "max_chunk_tokens": 1473,
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pipeline",
+        "chunk_time": 0.394
+      },
+      {
+        "chunker": "page_level",
+        "num_chunks": 4,
+        "avg_chunk_tokens": 2969.8,
+        "min_chunk_tokens": 1067,
+        "max_chunk_tokens": 7703,
+        "recall@1": 0.4,
+        "recall@3": 0.9,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pipeline",
+        "chunk_time": 0.156
+      },
+      {
+        "chunker": "page_level",
+        "num_chunks": 2,
+        "avg_chunk_tokens": 4826.5,
+        "min_chunk_tokens": 738,
+        "max_chunk_tokens": 8915,
+        "recall@1": 0.167,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pipeline",
+        "chunk_time": 0.17
+      },
+      {
+        "chunker": "page_level",
+        "num_chunks": 36,
+        "avg_chunk_tokens": 979.2,
+        "min_chunk_tokens": 592,
+        "max_chunk_tokens": 2424,
+        "recall@1": 0.125,
+        "recall@3": 0.375,
+        "recall@5": 0.625,
+        "recall@10": 0.625,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pipeline",
+        "chunk_time": 0.198
+      }
+    ]
+  },
+  {
+    "chunker": "fixed_256",
+    "parser": "pipeline",
+    "num_docs": 4,
+    "avg_num_chunks": 66.8,
+    "avg_chunk_tokens": 218.6,
+    "recall@1": 0.327,
+    "recall@3": 0.614,
+    "recall@5": 0.786,
+    "recall@10": 0.908,
+    "per_document": [
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 7,
+        "avg_chunk_tokens": 211.0,
+        "min_chunk_tokens": 46,
+        "max_chunk_tokens": 248,
+        "recall@1": 0.625,
+        "recall@3": 0.875,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pipeline",
+        "chunk_time": 0.109
+      },
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 53,
+        "avg_chunk_tokens": 224.0,
+        "min_chunk_tokens": 34,
+        "max_chunk_tokens": 507,
+        "recall@1": 0.1,
+        "recall@3": 0.5,
+        "recall@5": 0.6,
+        "recall@10": 0.8,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pipeline",
+        "chunk_time": 0.281
+      },
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 43,
+        "avg_chunk_tokens": 224.3,
+        "min_chunk_tokens": 31,
+        "max_chunk_tokens": 262,
+        "recall@1": 0.333,
+        "recall@3": 0.583,
+        "recall@5": 0.667,
+        "recall@10": 0.833,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pipeline",
+        "chunk_time": 0.197
+      },
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 164,
+        "avg_chunk_tokens": 215.3,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 673,
+        "recall@1": 0.25,
+        "recall@3": 0.5,
+        "recall@5": 0.875,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pipeline",
+        "chunk_time": 0.506
+      }
+    ]
+  },
+  {
+    "chunker": "fixed_512",
+    "parser": "pipeline",
+    "num_docs": 4,
+    "avg_num_chunks": 35.5,
+    "avg_chunk_tokens": 444.9,
+    "recall@1": 0.264,
+    "recall@3": 0.544,
+    "recall@5": 0.617,
+    "recall@10": 0.748,
+    "per_document": [
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 3,
+        "avg_chunk_tokens": 492.3,
+        "min_chunk_tokens": 450,
+        "max_chunk_tokens": 529,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pipeline",
+        "chunk_time": 0.075
+      },
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 27,
+        "avg_chunk_tokens": 439.8,
+        "min_chunk_tokens": 95,
+        "max_chunk_tokens": 508,
+        "recall@1": 0.1,
+        "recall@3": 0.3,
+        "recall@5": 0.3,
+        "recall@10": 0.7,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pipeline",
+        "chunk_time": 0.212
+      },
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 21,
+        "avg_chunk_tokens": 459.5,
+        "min_chunk_tokens": 210,
+        "max_chunk_tokens": 516,
+        "recall@1": 0.083,
+        "recall@3": 0.5,
+        "recall@5": 0.667,
+        "recall@10": 0.667,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pipeline",
+        "chunk_time": 0.124
+      },
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 91,
+        "avg_chunk_tokens": 388.0,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 673,
+        "recall@1": 0.125,
+        "recall@3": 0.375,
+        "recall@5": 0.5,
+        "recall@10": 0.625,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pipeline",
+        "chunk_time": 0.306
+      }
+    ]
+  },
+  {
+    "chunker": "fixed_512_overlap102",
+    "parser": "pipeline",
+    "num_docs": 4,
+    "avg_num_chunks": 39.2,
+    "avg_chunk_tokens": 442.1,
+    "recall@1": 0.477,
+    "recall@3": 0.617,
+    "recall@5": 0.769,
+    "recall@10": 0.86,
+    "per_document": [
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 4,
+        "avg_chunk_tokens": 435.8,
+        "min_chunk_tokens": 199,
+        "max_chunk_tokens": 529,
+        "recall@1": 0.875,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pipeline",
+        "chunk_time": 0.082
+      },
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 31,
+        "avg_chunk_tokens": 450.7,
+        "min_chunk_tokens": 95,
+        "max_chunk_tokens": 602,
+        "recall@1": 0.2,
+        "recall@3": 0.3,
+        "recall@5": 0.7,
+        "recall@10": 0.9,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pipeline",
+        "chunk_time": 0.19
+      },
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 24,
+        "avg_chunk_tokens": 472.7,
+        "min_chunk_tokens": 159,
+        "max_chunk_tokens": 519,
+        "recall@1": 0.583,
+        "recall@3": 0.667,
+        "recall@5": 0.75,
+        "recall@10": 0.917,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pipeline",
+        "chunk_time": 0.148
+      },
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 98,
+        "avg_chunk_tokens": 409.1,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 734,
+        "recall@1": 0.25,
+        "recall@3": 0.5,
+        "recall@5": 0.625,
+        "recall@10": 0.625,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pipeline",
+        "chunk_time": 0.412
+      }
+    ]
+  },
+  {
+    "chunker": "recursive",
+    "parser": "pipeline",
+    "num_docs": 4,
+    "avg_num_chunks": 46.5,
+    "avg_chunk_tokens": 369.4,
+    "recall@1": 0.312,
+    "recall@3": 0.54,
+    "recall@5": 0.667,
+    "recall@10": 0.86,
+    "per_document": [
+      {
+        "chunker": "recursive",
+        "num_chunks": 3,
+        "avg_chunk_tokens": 491.0,
+        "min_chunk_tokens": 474,
+        "max_chunk_tokens": 507,
+        "recall@1": 0.875,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pipeline",
+        "chunk_time": 0.066
+      },
+      {
+        "chunker": "recursive",
+        "num_chunks": 35,
+        "avg_chunk_tokens": 339.0,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 511,
+        "recall@1": 0.0,
+        "recall@3": 0.2,
+        "recall@5": 0.5,
+        "recall@10": 0.9,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pipeline",
+        "chunk_time": 0.257
+      },
+      {
+        "chunker": "recursive",
+        "num_chunks": 27,
+        "avg_chunk_tokens": 356.9,
+        "min_chunk_tokens": 19,
+        "max_chunk_tokens": 508,
+        "recall@1": 0.25,
+        "recall@3": 0.583,
+        "recall@5": 0.667,
+        "recall@10": 0.917,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pipeline",
+        "chunk_time": 0.192
+      },
+      {
+        "chunker": "recursive",
+        "num_chunks": 121,
+        "avg_chunk_tokens": 290.8,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 512,
+        "recall@1": 0.125,
+        "recall@3": 0.375,
+        "recall@5": 0.5,
+        "recall@10": 0.625,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pipeline",
+        "chunk_time": 0.471
+      }
+    ]
+  },
+  {
+    "chunker": "heading_based",
+    "parser": "pipeline",
+    "num_docs": 4,
+    "avg_num_chunks": 34.5,
+    "avg_chunk_tokens": 362.8,
+    "recall@1": 0.292,
+    "recall@3": 0.56,
+    "recall@5": 0.612,
+    "recall@10": 0.838,
+    "per_document": [
+      {
+        "chunker": "heading_based",
+        "num_chunks": 13,
+        "avg_chunk_tokens": 113.1,
+        "min_chunk_tokens": 6,
+        "max_chunk_tokens": 673,
+        "recall@1": 0.375,
+        "recall@3": 0.625,
+        "recall@5": 0.625,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pipeline",
+        "chunk_time": 0.117
+      },
+      {
+        "chunker": "heading_based",
+        "num_chunks": 23,
+        "avg_chunk_tokens": 516.2,
+        "min_chunk_tokens": 78,
+        "max_chunk_tokens": 1023,
+        "recall@1": 0.0,
+        "recall@3": 0.2,
+        "recall@5": 0.2,
+        "recall@10": 0.6,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pipeline",
+        "chunk_time": 0.145
+      },
+      {
+        "chunker": "heading_based",
+        "num_chunks": 43,
+        "avg_chunk_tokens": 224.4,
+        "min_chunk_tokens": 6,
+        "max_chunk_tokens": 834,
+        "recall@1": 0.417,
+        "recall@3": 0.917,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pipeline",
+        "chunk_time": 0.271
+      },
+      {
+        "chunker": "heading_based",
+        "num_chunks": 59,
+        "avg_chunk_tokens": 597.6,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 1024,
+        "recall@1": 0.375,
+        "recall@3": 0.5,
+        "recall@5": 0.625,
+        "recall@10": 0.75,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pipeline",
+        "chunk_time": 0.231
+      }
+    ]
+  },
+  {
+    "chunker": "table_aware",
+    "parser": "pipeline",
+    "num_docs": 4,
+    "avg_num_chunks": 53.5,
+    "avg_chunk_tokens": 249.3,
+    "recall@1": 0.254,
+    "recall@3": 0.6,
+    "recall@5": 0.692,
+    "recall@10": 0.825,
+    "per_document": [
+      {
+        "chunker": "table_aware",
+        "num_chunks": 6,
+        "avg_chunk_tokens": 245.8,
+        "min_chunk_tokens": 17,
+        "max_chunk_tokens": 514,
+        "recall@1": 0.625,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pipeline",
+        "chunk_time": 0.084
+      },
+      {
+        "chunker": "table_aware",
+        "num_chunks": 56,
+        "avg_chunk_tokens": 211.9,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 654,
+        "recall@1": 0.1,
+        "recall@3": 0.4,
+        "recall@5": 0.6,
+        "recall@10": 0.8,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pipeline",
+        "chunk_time": 0.209
+      },
+      {
+        "chunker": "table_aware",
+        "num_chunks": 49,
+        "avg_chunk_tokens": 196.7,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 814,
+        "recall@1": 0.167,
+        "recall@3": 0.5,
+        "recall@5": 0.667,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pipeline",
+        "chunk_time": 0.196
+      },
+      {
+        "chunker": "table_aware",
+        "num_chunks": 103,
+        "avg_chunk_tokens": 342.6,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 673,
+        "recall@1": 0.125,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.5,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pipeline",
+        "chunk_time": 0.358
+      }
+    ]
+  },
+  {
+    "chunker": "element_type",
+    "parser": "pipeline",
+    "num_docs": 4,
+    "avg_num_chunks": 37.0,
+    "avg_chunk_tokens": 363.2,
+    "recall@1": 0.279,
+    "recall@3": 0.619,
+    "recall@5": 0.661,
+    "recall@10": 0.814,
+    "per_document": [
+      {
+        "chunker": "element_type",
+        "num_chunks": 5,
+        "avg_chunk_tokens": 294.2,
+        "min_chunk_tokens": 17,
+        "max_chunk_tokens": 829,
+        "recall@1": 0.625,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pipeline",
+        "chunk_time": 0.079
+      },
+      {
+        "chunker": "element_type",
+        "num_chunks": 46,
+        "avg_chunk_tokens": 258.0,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 1878,
+        "recall@1": 0.2,
+        "recall@3": 0.6,
+        "recall@5": 0.6,
+        "recall@10": 0.8,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pipeline",
+        "chunk_time": 0.189
+      },
+      {
+        "chunker": "element_type",
+        "num_chunks": 46,
+        "avg_chunk_tokens": 209.5,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 891,
+        "recall@1": 0.167,
+        "recall@3": 0.5,
+        "recall@5": 0.667,
+        "recall@10": 0.833,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pipeline",
+        "chunk_time": 0.175
+      },
+      {
+        "chunker": "element_type",
+        "num_chunks": 51,
+        "avg_chunk_tokens": 691.1,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 2169,
+        "recall@1": 0.125,
+        "recall@3": 0.375,
+        "recall@5": 0.375,
+        "recall@10": 0.625,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pipeline",
+        "chunk_time": 0.226
+      }
+    ]
+  },
+  {
+    "chunker": "semantic",
+    "parser": "pipeline",
+    "num_docs": 4,
+    "avg_num_chunks": 93.0,
+    "avg_chunk_tokens": 160.6,
+    "recall@1": 0.292,
+    "recall@3": 0.581,
+    "recall@5": 0.742,
+    "recall@10": 0.898,
+    "per_document": [
+      {
+        "chunker": "semantic",
+        "num_chunks": 11,
+        "avg_chunk_tokens": 132.4,
+        "min_chunk_tokens": 12,
+        "max_chunk_tokens": 270,
+        "recall@1": 0.375,
+        "recall@3": 0.875,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pipeline",
+        "chunk_time": 4.014
+      },
+      {
+        "chunker": "semantic",
+        "num_chunks": 61,
+        "avg_chunk_tokens": 194.2,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 654,
+        "recall@1": 0.0,
+        "recall@3": 0.2,
+        "recall@5": 0.3,
+        "recall@10": 0.8,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pipeline",
+        "chunk_time": 0.597
+      },
+      {
+        "chunker": "semantic",
+        "num_chunks": 56,
+        "avg_chunk_tokens": 171.6,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 814,
+        "recall@1": 0.167,
+        "recall@3": 0.5,
+        "recall@5": 0.917,
+        "recall@10": 0.917,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "deck_12",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pipeline",
+        "chunk_time": 0.565
+      },
+      {
+        "chunker": "semantic",
+        "num_chunks": 244,
+        "avg_chunk_tokens": 144.3,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 673,
+        "recall@1": 0.625,
+        "recall@3": 0.75,
+        "recall@5": 0.75,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pipeline",
+        "chunk_time": 2.549
+      }
+    ]
+  }
+]

@@ -1,0 +1,872 @@
+[
+  {
+    "chunker": "page_level",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 2.0,
+    "avg_chunk_tokens": 761.5,
+    "recall@1": 0.875,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "page_level",
+        "num_chunks": 2,
+        "avg_chunk_tokens": 761.5,
+        "min_chunk_tokens": 445,
+        "max_chunk_tokens": 1078,
+        "recall@1": 0.875,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 0.59
+      }
+    ]
+  },
+  {
+    "chunker": "fixed_256",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 7.0,
+    "avg_chunk_tokens": 216.4,
+    "recall@1": 0.875,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 7,
+        "avg_chunk_tokens": 216.4,
+        "min_chunk_tokens": 77,
+        "max_chunk_tokens": 300,
+        "recall@1": 0.875,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 0.096
+      }
+    ]
+  },
+  {
+    "chunker": "fixed_512",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 4.0,
+    "avg_chunk_tokens": 379.5,
+    "recall@1": 0.75,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 4,
+        "avg_chunk_tokens": 379.5,
+        "min_chunk_tokens": 44,
+        "max_chunk_tokens": 522,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 0.077
+      }
+    ]
+  },
+  {
+    "chunker": "fixed_512_overlap102",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 4.0,
+    "avg_chunk_tokens": 412.0,
+    "recall@1": 0.875,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 4,
+        "avg_chunk_tokens": 412.0,
+        "min_chunk_tokens": 171,
+        "max_chunk_tokens": 522,
+        "recall@1": 0.875,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 0.053
+      }
+    ]
+  },
+  {
+    "chunker": "recursive",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 4.0,
+    "avg_chunk_tokens": 380.5,
+    "recall@1": 0.75,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "recursive",
+        "num_chunks": 4,
+        "avg_chunk_tokens": 380.5,
+        "min_chunk_tokens": 125,
+        "max_chunk_tokens": 512,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 0.059
+      }
+    ]
+  },
+  {
+    "chunker": "heading_based",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 6.0,
+    "avg_chunk_tokens": 253.3,
+    "recall@1": 0.375,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "heading_based",
+        "num_chunks": 6,
+        "avg_chunk_tokens": 253.3,
+        "min_chunk_tokens": 5,
+        "max_chunk_tokens": 953,
+        "recall@1": 0.375,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 0.081
+      }
+    ]
+  },
+  {
+    "chunker": "table_aware",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 6.0,
+    "avg_chunk_tokens": 253.2,
+    "recall@1": 0.75,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "table_aware",
+        "num_chunks": 6,
+        "avg_chunk_tokens": 253.2,
+        "min_chunk_tokens": 2,
+        "max_chunk_tokens": 522,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 0.064
+      }
+    ]
+  },
+  {
+    "chunker": "element_type",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 5.0,
+    "avg_chunk_tokens": 304.2,
+    "recall@1": 0.75,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "element_type",
+        "num_chunks": 5,
+        "avg_chunk_tokens": 304.2,
+        "min_chunk_tokens": 2,
+        "max_chunk_tokens": 955,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 0.079
+      }
+    ]
+  },
+  {
+    "chunker": "semantic",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 17.0,
+    "avg_chunk_tokens": 86.8,
+    "recall@1": 0.25,
+    "recall@3": 0.875,
+    "recall@5": 0.875,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "semantic",
+        "num_chunks": 17,
+        "avg_chunk_tokens": 86.8,
+        "min_chunk_tokens": 4,
+        "max_chunk_tokens": 281,
+        "recall@1": 0.25,
+        "recall@3": 0.875,
+        "recall@5": 0.875,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 4.145
+      }
+    ]
+  },
+  {
+    "chunker": "structure_aware",
+    "parser": "pymupdf_fast",
+    "retrieval": "dense",
+    "num_docs": 1,
+    "avg_num_chunks": 7.0,
+    "avg_chunk_tokens": 217.7,
+    "recall@1": 0.875,
+    "recall@3": 1.0,
+    "recall@5": 1.0,
+    "recall@10": 1.0,
+    "per_document": [
+      {
+        "chunker": "structure_aware",
+        "num_chunks": 7,
+        "avg_chunk_tokens": 217.7,
+        "min_chunk_tokens": 5,
+        "max_chunk_tokens": 953,
+        "recall@1": 0.875,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "dense",
+        "chunk_time": 0.071
+      }
+    ]
+  }
+]
