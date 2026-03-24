@@ -15,6 +15,7 @@ from pathlib import Path
 import pymupdf as fitz
 from openai import AsyncOpenAI
 
+from config import MAX_TOKENS_CHART_DESCRIPTION, DEFAULT_DPI, DEFAULT_FAST_MODEL
 from page_classifier import classify_document, Complexity
 
 
@@ -135,8 +136,8 @@ async def describe_charts(
     b64 = base64.b64encode(image_bytes).decode("utf-8")
 
     response = await client.chat.completions.create(
-        model="gpt-4.1-mini",
-        max_tokens=2048,
+        model=DEFAULT_FAST_MODEL,
+        max_tokens=MAX_TOKENS_CHART_DESCRIPTION,
         messages=[
             {"role": "system", "content": "You describe charts and visual elements in document pages. Be precise with data values."},
             {"role": "user", "content": [

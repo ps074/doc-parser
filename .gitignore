@@ -7,3 +7,7 @@ output/
 .DS_Store
 *.log
 *sa-key*
+
+experiments/chunking/results/
+experiments/chunking/.ipynb_checkpoints/
+experiments/chunking/.ipynb

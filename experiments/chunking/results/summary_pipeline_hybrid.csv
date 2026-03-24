@@ -1,13 +1,2 @@
-strategy,parser,retrieval,num_chunks,avg_tokens,recall@1,recall@3,recall@5,recall@10
-page_level,pipeline,hybrid,10.8,2562.1,0.589,0.906,0.938,0.938
-heading_based,pipeline,hybrid,34.5,362.8,0.529,0.694,0.856,0.919
-contextual_fixed_512_overlap102,pipeline,hybrid,39.2,491.3,0.636,0.827,0.848,0.923
-fixed_256,pipeline,hybrid,66.8,218.6,0.617,0.719,0.827,0.879
-fixed_512_overlap102,pipeline,hybrid,39.2,442.1,0.592,0.7,0.823,0.869
-semantic,pipeline,hybrid,93.0,160.6,0.488,0.781,0.812,0.844
-structure_aware,pipeline,hybrid,49.8,261.6,0.494,0.792,0.812,0.919
-table_aware,pipeline,hybrid,53.5,249.3,0.431,0.704,0.781,0.9
-recursive,pipeline,hybrid,46.5,369.4,0.483,0.736,0.76,0.929
-element_type,pipeline,hybrid,37.0,363.2,0.336,0.74,0.76,0.912
-contextual_structure_aware,pipeline,hybrid,49.8,307.9,0.54,0.677,0.729,0.944
-fixed_512,pipeline,hybrid,35.5,444.9,0.494,0.648,0.725,0.9
+strategy,parser,retrieval,num_chunks,avg_tokens,recall@1,recall@3,recall@5,recall@10,mrr,llm_recall@5
+chonkie_512,pipeline,hybrid,122.6,262.1,0.512,0.756,0.861,0.939,0.662,0.794

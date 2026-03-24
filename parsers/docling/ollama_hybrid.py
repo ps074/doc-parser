@@ -34,7 +34,11 @@ Provide ONLY your final analysis in this format:
 
 IMPORTANT: Start immediately with the analysis. NO "Let me think", "First", "Got it", "Wait", or reasoning steps.
 """
-MAX_TOKENS = 2048
+try:
+    from config import MAX_TOKENS_CHART_DESCRIPTION
+    MAX_TOKENS = MAX_TOKENS_CHART_DESCRIPTION
+except ImportError:
+    MAX_TOKENS = 4096
 TIMEOUT = 600
 
 

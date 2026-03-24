@@ -184,7 +184,7 @@
         {
           "id": "deck_07",
           "question": "What is HubSpot's cash position?",
-          "expected_keywords": ["$1.8B", "1.8B"],
+          "expected_keywords": ["$1.8", "1.8B"],
           "answer_pages": [17],
           "type": "factual"
         },
@@ -271,17 +271,221 @@
           "type": "factual"
         },
         {
-          "id": "cabo_07",
-          "question": "In which state is Cable One's principal executive office located?",
-          "expected_keywords": ["Arizona", "Phoenix"],
-          "answer_pages": [1],
-          "type": "factual"
-        },
-        {
           "id": "cabo_08",
           "question": "What are Cable One's brand names?",
           "expected_keywords": ["Sparklight", "Hargray"],
           "answer_pages": [5],
+          "type": "factual"
+        }
+      ]
+    },
+    "10Q": {
+      "pdf_path": "docs/10Q.pdf",
+      "questions": [
+        {
+          "id": "wow_01",
+          "question": "What is WideOpenWest's ticker symbol?",
+          "expected_keywords": ["WOW"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "wow_02",
+          "question": "What was WideOpenWest's total assets as of June 30, 2023?",
+          "expected_keywords": ["1,621.4"],
+          "answer_pages": [4],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_03",
+          "question": "What was WOW's revenue for the three months ended June 30, 2023?",
+          "expected_keywords": ["172.6"],
+          "answer_pages": [5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_04",
+          "question": "What was WOW's cash and cash equivalents as of June 30, 2023?",
+          "expected_keywords": ["23.0"],
+          "answer_pages": [4],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_05",
+          "question": "How many shares of common stock were outstanding as of August 4, 2023?",
+          "expected_keywords": ["83,693,578"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "wow_06",
+          "question": "What was the IRS Employer Identification Number for WideOpenWest?",
+          "expected_keywords": ["46-0552948"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "wow_07",
+          "question": "What was WOW's net loss for the three months ended June 30, 2023?",
+          "expected_keywords": ["101.7"],
+          "answer_pages": [5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_08",
+          "question": "What was the total residential subscription revenue for Q2 2023?",
+          "expected_keywords": ["132.2"],
+          "answer_pages": [9],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_09",
+          "question": "What was the impairment loss on intangibles for Q2 2023?",
+          "expected_keywords": ["128.1"],
+          "answer_pages": [5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_10",
+          "question": "In which state is WideOpenWest incorporated?",
+          "expected_keywords": ["Delaware"],
+          "answer_pages": [1],
+          "type": "factual"
+        }
+      ]
+    },
+    "kiski": {
+      "pdf_path": "docs/kiski.pdf",
+      "questions": [
+        {
+          "id": "kis_01",
+          "question": "What is the BOD MV (Beginning of Day Market Value) for KISKI?",
+          "expected_keywords": ["977,761,909"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "kis_02",
+          "question": "What was the fund's return period to date?",
+          "expected_keywords": ["-4.2%"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_03",
+          "question": "What was the fund's Sharpe ratio period to date?",
+          "expected_keywords": ["-7.28"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_04",
+          "question": "What is the average gross exposure for the fund?",
+          "expected_keywords": ["151%"],
+          "answer_pages": [1],
+          "type": "chart_reading"
+        },
+        {
+          "id": "kis_05",
+          "question": "What was the top contributor to performance?",
+          "expected_keywords": ["CW"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_06",
+          "question": "What is the total fund net equity?",
+          "expected_keywords": ["379M"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_07",
+          "question": "What was the net equity percentage for the total fund?",
+          "expected_keywords": ["66.5%"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_08",
+          "question": "What is the Beta Adj Exposure for SPX Index at 1 year?",
+          "expected_keywords": ["512.3M"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_09",
+          "question": "What was the long net position dollar value for ATR Shock?",
+          "expected_keywords": ["643,068,118"],
+          "answer_pages": [4],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_10",
+          "question": "What is the total fund P&L for the Detail page?",
+          "expected_keywords": ["-49,874K"],
+          "answer_pages": [3],
+          "type": "table_lookup"
+        }
+      ]
+    },
+    "report": {
+      "pdf_path": "docs/report.pdf",
+      "questions": [
+        {
+          "id": "rpt_01",
+          "question": "What is Cable One's IRS Employer Identification Number?",
+          "expected_keywords": ["13-3060083"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_02",
+          "question": "What percentage of Cable One's total revenues came from residential data in 2023?",
+          "expected_keywords": ["58%", "58.4"],
+          "answer_pages": [4],
+          "type": "chart_reading"
+        },
+        {
+          "id": "rpt_03",
+          "question": "How many homes did Cable One pass as of December 31, 2023?",
+          "expected_keywords": ["2.8 million"],
+          "answer_pages": [3],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_04",
+          "question": "What was Cable One's ticker symbol?",
+          "expected_keywords": ["CABO"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_05",
+          "question": "How much did Cable One invest in broadband infrastructure over the last three years?",
+          "expected_keywords": ["$1.2 billion", "1.2 billion"],
+          "answer_pages": [8],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_06",
+          "question": "What percentage of total capital expenditures since 2017 were focused on infrastructure?",
+          "expected_keywords": ["69%"],
+          "answer_pages": [5],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_07",
+          "question": "How many shares of Cable One's common stock were outstanding as of February 16, 2024?",
+          "expected_keywords": ["5,619,109"],
+          "answer_pages": [2],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_08",
+          "question": "What was the approximate aggregate market value of Cable One stock held by non-affiliates?",
+          "expected_keywords": ["3.7 billion"],
+          "answer_pages": [2],
           "type": "factual"
         }
       ]

@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-9 chunking strategies for PDF markdown output.
+Chunking strategies for PDF markdown output.
 
-Handles output from both:
-  - pymupdf_fast.py: "## Page N" headers separated by "---"
-  - pipeline.py: content blocks separated by "---"
+Strategies: page_level, fixed_size, recursive, heading_based, table_aware,
+element_type, semantic, structure_aware, chonkie, contextual.
+
+Handles output from pymupdf_fast ("## Page N"), pymupdf4llm/pipeline
+("<!-- page: N -->"), or plain markdown.
 """
 import re
 from dataclasses import dataclass, field
@@ -172,25 +174,6 @@ def _split_text_by_tokens(text: str, chunk_size: int, overlap: int = 0) -> list[
         chunks.append("\n".join(current))
 
     return chunks
-
-
-def _infer_page_num(text: str, pages: list[tuple[int, str]]) -> int:
-    """Find which page a chunk of text most likely belongs to."""
-    # Simple heuristic: find the page whose text contains the most overlap
-    best_page = 1
-    best_overlap = 0
-    snippet = text[:200].strip()
-    for pn, ptext in pages:
-        if snippet in ptext:
-            return pn
-        # Count shared words as fallback
-        chunk_words = set(text.lower().split()[:30])
-        page_words = set(ptext.lower().split())
-        overlap = len(chunk_words & page_words)
-        if overlap > best_overlap:
-            best_overlap = overlap
-            best_page = pn
-    return best_page
 
 
 # ---------------------------------------------------------------------------
@@ -400,8 +383,8 @@ class SemanticChunker:
 
     def _get_model(self):
         if self._model is None:
-            from sentence_transformers import SentenceTransformer
-            self._model = SentenceTransformer("all-MiniLM-L6-v2")
+            from experiments.chunking.embedder import Embedder
+            self._model = Embedder()
         return self._model
 
     def chunk(self, markdown: str) -> list[Chunk]:
@@ -442,7 +425,7 @@ class SemanticChunker:
 
             # Embed sentences and find breakpoints
             model = self._get_model()
-            embeddings = model.encode(sentences, convert_to_numpy=True)
+            embeddings = model.embed_texts(sentences)
 
             # Cosine similarity between consecutive sentences
             similarities = []
@@ -551,12 +534,6 @@ class StructureAwareChunker:
             for heading_ctx, content, ctype in sections:
                 if not content:
                     continue
-
-                # Prepend heading context
-                if heading_ctx:
-                    full_text = f"[{heading_ctx}]\n\n{content}"
-                else:
-                    full_text = content
 
                 # Split elements within this section to keep tables atomic
                 elements = split_into_elements(content)
@@ -676,17 +653,51 @@ class ContextualChunker:
         return contextualized
 
 
-def get_all_chunkers(include_contextual: bool = False) -> list:
+class ChonkieChunker:
+    """Wrapper around parsers/chunker.py to fit the eval framework.
+
+    Uses Chonkie's RecursiveChunker for text and TableChunker for tables.
+    """
+
+    def __init__(self, chunk_size: int = 512, table_chunk_size: int = 512):
+        self.chunk_size = chunk_size
+        self.table_chunk_size = table_chunk_size
+        self.name = f"chonkie_{chunk_size}"
+        self._chunker_mod = None
+
+    def _get_chunker(self):
+        if self._chunker_mod is None:
+            from parsers.chunker import chunk_markdown as _cm
+            self._chunker_mod = _cm
+        return self._chunker_mod
+
+    def chunk(self, markdown: str) -> list[Chunk]:
+        chunk_markdown = self._get_chunker()
+        raw_chunks = chunk_markdown(
+            markdown,
+            chunk_size=self.chunk_size,
+            table_chunk_size=self.table_chunk_size,
+        )
+        return [
+            Chunk(text=c.text, metadata={
+                "page_num": c.page_num,
+                "chunk_type": ChunkType.TABLE if c.chunk_type == "table" else ChunkType.TEXT,
+                "strategy": self.name,
+            })
+            for c in raw_chunks
+        ]
+
+
+def get_all_chunkers(include_contextual: bool = False, include_chonkie: bool = True) -> list:
     """Return all chunking strategies.
 
     Args:
         include_contextual: If True, include contextual retrieval variants
             (requires LLM API calls, slower and costs money).
+        include_chonkie: If True, include Chonkie-based chunker.
     """
     chunkers = [
         PageLevelChunker(),
-        FixedSizeTokenChunker(chunk_size=256),
-        FixedSizeTokenChunker(chunk_size=512),
         FixedSizeTokenChunker(chunk_size=512, overlap=102),
         RecursiveChunker(chunk_size=512),
         HeadingBasedChunker(),
@@ -695,6 +706,9 @@ def get_all_chunkers(include_contextual: bool = False) -> list:
         SemanticChunker(),
         StructureAwareChunker(),
     ]
+
+    if include_chonkie:
+        chunkers.append(ChonkieChunker(chunk_size=512))
 
     if include_contextual:
         # Contextualize the best-performing base chunkers

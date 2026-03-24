@@ -280,6 +280,72 @@ experiments/chunking/
 
 ---
 
+## Chunking (Pipeline Output → RAG Chunks)
+
+After the pipeline produces markdown, chunk it for retrieval using Chonkie-based chunkers:
+
+```bash
+# Chunk a pipeline output file (saves to *_chunks.json alongside input)
+python parsers/chunker.py output/pipeline/hubspot-q4/hubspot-q4.md
+
+# Custom output path
+python parsers/chunker.py output/pipeline/hubspot-q4/hubspot-q4.md -o chunks/hubspot.json
+
+# Custom chunk sizes
+python parsers/chunker.py output/pipeline/hubspot-q4/hubspot-q4.md --chunk-size 256 --table-chunk-size 256
+
+# Show only table chunks
+python parsers/chunker.py output/pipeline/hubspot-q4/hubspot-q4.md --show-tables
+
+# Print only, don't save
+python parsers/chunker.py output/pipeline/hubspot-q4/hubspot-q4.md --no-save
+```
+
+**From Python:**
+```python
+from parsers.chunker import chunk_document, chunk_markdown
+
+chunks = chunk_document("output/pipeline/hubspot-q4/hubspot-q4.md")
+for c in chunks:
+    print(c.text, c.chunk_type, c.page_num, c.token_count)
+```
+
+Chunking approach:
+- **Text** → Chonkie `RecursiveChunker` (markdown-aware, splits on headings/paragraphs/sentences)
+- **Tables** → Chonkie `TableChunker` (preserves headers across splits)
+- Page numbers are preserved from `<!-- page: N -->` markers
+
+Output JSON structure:
+```json
+{
+  "source": "output/pipeline/hubspot-q4/hubspot-q4.md",
+  "total_chunks": 56,
+  "text_chunks": 31,
+  "table_chunks": 25,
+  "chunks": [
+    {"id": 0, "text": "...", "chunk_type": "text", "page_num": 1, "token_count": 493},
+    {"id": 1, "text": "| Col1 | Col2 |...", "chunk_type": "table", "page_num": 3, "token_count": 141}
+  ]
+}
+```
+
+---
+
+## Configuration
+
+All token limits, DPI settings, and model defaults are centralized in `parsers/config.py`:
+
+| Setting | Value | Used by |
+|---------|-------|---------|
+| `MAX_TOKENS_PAGE_EXTRACTION` | 32,768 | pipeline.py, vision_llm.py |
+| `MAX_TOKENS_CHART_DESCRIPTION` | 4,096 | hybrid_parser.py |
+| `MAX_TOKENS_QUERY_ANSWER` | 4,096 | query_router.py |
+| `DEFAULT_DPI` | 200 | All page renderers |
+| `DEFAULT_VISION_MODEL` | claude-sonnet-4 | Vision extraction |
+| `DEFAULT_FAST_MODEL` | gpt-4.1-mini | Charts, routing |
+
+---
+
 ## Documentation
 
 - **FINAL_SUMMARY.md** - Summary comparison
