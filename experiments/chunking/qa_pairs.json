@@ -429,6 +429,116 @@
         }
       ]
     },
+    "meta_10q": {
+      "pdf_path": "docs/meta_10q.pdf",
+      "questions": [
+        {
+          "id": "meta_01",
+          "question": "What was Meta's total revenue for the three months ended September 30, 2025?",
+          "expected_keywords": ["51,242"],
+          "answer_pages": [7],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_02",
+          "question": "What was Meta's total assets as of September 30, 2025?",
+          "expected_keywords": ["303,844"],
+          "answer_pages": [6],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_03",
+          "question": "What was the net value of Meta's property and equipment as of September 30, 2025?",
+          "expected_keywords": ["160,270"],
+          "answer_pages": [6, 18],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_04",
+          "question": "What was Meta's diluted earnings per share for the nine months ended September 30, 2025?",
+          "expected_keywords": ["14.62"],
+          "answer_pages": [7, 14],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_05",
+          "question": "What was Reality Labs' revenue for Q3 2025 and what was its operating loss?",
+          "expected_keywords": ["470", "4,432"],
+          "answer_pages": [33, 30],
+          "type": "table_reasoning"
+        },
+        {
+          "id": "meta_06",
+          "question": "How much did Meta's advertising revenue grow year-over-year for the three months ended September 30, 2025?",
+          "expected_keywords": ["26%", "26 %", "10.20 billion", "10,197"],
+          "answer_pages": [43],
+          "type": "table_reasoning"
+        },
+        {
+          "id": "meta_07",
+          "question": "What was Meta's net cash provided by operating activities for the nine months ended September 30, 2025?",
+          "expected_keywords": ["79,586"],
+          "answer_pages": [10, 47],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_08",
+          "question": "What was the worldwide daily active people (DAP) for Meta's Family of Apps as of September 2025?",
+          "expected_keywords": ["3.54", "3.54 billion"],
+          "answer_pages": [33, 37],
+          "type": "chart_reading"
+        },
+        {
+          "id": "meta_09",
+          "question": "What was Meta's worldwide average revenue per person (ARPP) in Q3 2025?",
+          "expected_keywords": ["14.46", "$14.46"],
+          "answer_pages": [38],
+          "type": "chart_reading"
+        },
+        {
+          "id": "meta_10",
+          "question": "How much did Meta invest in Scale AI and how was it accounted for?",
+          "expected_keywords": ["13.79", "13.79 billion", "measurement alternative"],
+          "answer_pages": [17],
+          "type": "factual"
+        },
+        {
+          "id": "meta_11",
+          "question": "What was the one-time income tax charge Meta recorded related to the One Big Beautiful Bill Act (OBBBA)?",
+          "expected_keywords": ["15.93", "$15.93 billion"],
+          "answer_pages": [29, 46],
+          "type": "factual"
+        },
+        {
+          "id": "meta_12",
+          "question": "How much did Reality Labs reduce Meta's overall operating profit in the nine months ended September 30, 2025?",
+          "expected_keywords": ["13.17", "$13.17 billion", "13,171"],
+          "answer_pages": [35, 45],
+          "type": "table_reasoning"
+        },
+        {
+          "id": "meta_13",
+          "question": "What was the value of servers and network assets on Meta's balance sheet as of September 30, 2025?",
+          "expected_keywords": ["92,142"],
+          "answer_pages": [18],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_14",
+          "question": "What is Meta's expected capital expenditure range for 2025?",
+          "expected_keywords": ["$70 billion", "$72 billion", "70", "72"],
+          "answer_pages": [48],
+          "type": "factual"
+        },
+        {
+          "id": "meta_15",
+          "question": "Summarize Meta's position on Reality Labs and why they continue investing in it despite significant operating losses.",
+          "expected_keywords": ["next computing platform", "metaverse", "long-term", "virtual", "augmented"],
+          "answer_pages": [35],
+          "type": "summarization"
+        }
+      ]
+    },
     "report": {
       "pdf_path": "docs/report.pdf",
       "questions": [

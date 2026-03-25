@@ -567,6 +567,16 @@ async def run_pipeline(
     meta_path.write_text(json.dumps(meta, indent=2))
     print(f"Metadata saved to: {meta_path}")
 
+    # Mirror output to project root output dir (eval_chunking.py looks there)
+    project_root = Path(__file__).resolve().parent.parent
+    root_output_dir = project_root / "output" / "pipeline" / pdf_path.stem
+    if root_output_dir.resolve() != output_dir.resolve():
+        import shutil
+        root_output_dir.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(md_path, root_output_dir / md_path.name)
+        shutil.copy2(meta_path, root_output_dir / meta_path.name)
+        print(f"Mirrored to: {root_output_dir}")
+
     return all_results
 
 
