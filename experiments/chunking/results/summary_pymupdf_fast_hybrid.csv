@@ -1,0 +1,11 @@
+strategy,parser,retrieval,num_chunks,avg_tokens,recall@1,recall@3,recall@5,recall@10
+page_level,pymupdf_fast,hybrid,36.6,1115.3,0.61,0.877,0.918,0.982
+fixed_512,pymupdf_fast,hybrid,93.7,370.9,0.554,0.846,0.889,0.982
+fixed_512_overlap102,pymupdf_fast,hybrid,101.6,392.3,0.552,0.861,0.889,0.968
+structure_aware,pymupdf_fast,hybrid,133.7,339.2,0.63,0.825,0.882,0.946
+recursive,pymupdf_fast,hybrid,103.7,346.8,0.604,0.8,0.875,0.982
+table_aware,pymupdf_fast,hybrid,161.9,245.6,0.568,0.832,0.875,0.954
+element_type,pymupdf_fast,hybrid,122.0,444.9,0.696,0.843,0.871,0.964
+fixed_256,pymupdf_fast,hybrid,172.3,206.6,0.542,0.764,0.861,0.968
+heading_based,pymupdf_fast,hybrid,67.7,488.7,0.629,0.836,0.854,0.964
+semantic,pymupdf_fast,hybrid,268.0,124.4,0.546,0.695,0.843,0.907

@@ -12,6 +12,8 @@ from pathlib import Path
 import fitz  # PyMuPDF for rendering
 import anthropic
 
+from config import MAX_TOKENS_PAGE_EXTRACTION, DEFAULT_DPI, DEFAULT_VISION_MODEL
+
 
 SYSTEM_PROMPT = """You are a precision document parser. Your job is to convert a document page image into perfectly structured markdown. You must capture EVERY detail — no summarizing, no skipping, no paraphrasing.
 
@@ -68,7 +70,7 @@ Context from previous pages for continuity:
 - Page {page_num} of {total_pages}"""
 
 
-def render_page_to_image(pdf_path: Path, page_num: int, dpi: int = 200) -> bytes:
+def render_page_to_image(pdf_path: Path, page_num: int, dpi: int = DEFAULT_DPI) -> bytes:
     """Render a PDF page to PNG bytes."""
     doc = fitz.open(pdf_path)
     page = doc[page_num]
@@ -85,14 +87,14 @@ def parse_page_with_vision(
     image_bytes: bytes,
     page_num: int,
     total_pages: int,
-    model: str = "claude-sonnet-4-20250514",
+    model: str = DEFAULT_VISION_MODEL,
 ) -> str:
     """Send a page image to Claude and get markdown extraction."""
     b64_image = base64.b64encode(image_bytes).decode("utf-8")
 
     message = client.messages.create(
         model=model,
-        max_tokens=8192,
+        max_tokens=MAX_TOKENS_PAGE_EXTRACTION,
         system=SYSTEM_PROMPT,
         messages=[
             {

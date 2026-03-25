@@ -1,0 +1,2 @@
+strategy,parser,retrieval,num_chunks,avg_tokens,recall@1,recall@3,recall@5,recall@10,mrr,llm_recall@5
+chonkie_512,pipeline,hybrid,122.6,262.1,0.512,0.756,0.861,0.939,0.662,0.794

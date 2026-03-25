@@ -1,0 +1,11 @@
+strategy,parser,retrieval,num_chunks,avg_tokens,recall@1,recall@3,recall@5,recall@10
+table_aware,pipeline,turbopuffer_hybrid,53.5,249.3,0.492,0.848,1.0,1.0
+structure_aware,pipeline,turbopuffer_hybrid,49.8,261.6,0.664,0.894,1.0,1.0
+element_type,pipeline,turbopuffer_hybrid,37.0,363.2,0.581,0.848,0.979,1.0
+semantic,pipeline,turbopuffer_hybrid,93.0,160.6,0.69,0.894,0.975,1.0
+page_level,pipeline,turbopuffer_hybrid,10.8,2562.1,0.671,0.969,0.969,0.969
+recursive,pipeline,turbopuffer_hybrid,46.5,369.4,0.575,0.844,0.95,0.975
+heading_based,pipeline,turbopuffer_hybrid,34.5,362.8,0.627,0.788,0.95,1.0
+fixed_256,pipeline,turbopuffer_hybrid,66.8,218.6,0.529,0.802,0.929,0.979
+fixed_512,pipeline,turbopuffer_hybrid,35.5,444.9,0.571,0.825,0.925,1.0
+fixed_512_overlap102,pipeline,turbopuffer_hybrid,39.2,442.1,0.606,0.875,0.925,1.0

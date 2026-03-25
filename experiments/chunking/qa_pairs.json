@@ -1,0 +1,604 @@
+{
+  "documents": {
+    "VAM-3852AO": {
+      "pdf_path": "docs/VAM-3852AO.pdf",
+      "questions": [
+        {
+          "id": "vam_01",
+          "question": "What is the ticker symbol for the S&P 500 Price Index?",
+          "expected_keywords": ["SPX"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "vam_02",
+          "question": "What was the compound annual growth rate of the S&P 500 from 1993 to 2023?",
+          "expected_keywords": ["8.05%", "8.05"],
+          "answer_pages": [1],
+          "type": "chart_reading"
+        },
+        {
+          "id": "vam_03",
+          "question": "What was the annual return of the S&P 500 in 2022?",
+          "expected_keywords": ["-19.44%", "-19.44"],
+          "answer_pages": [2],
+          "type": "table_lookup"
+        },
+        {
+          "id": "vam_04",
+          "question": "What percentage of the S&P 500 is allocated to Information Technology?",
+          "expected_keywords": ["28.90%", "28.90", "28.9%"],
+          "answer_pages": [2],
+          "type": "chart_reading"
+        },
+        {
+          "id": "vam_05",
+          "question": "How many constituents does the S&P 500 index have?",
+          "expected_keywords": ["503"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "vam_06",
+          "question": "What are the top five constituents of the S&P 500?",
+          "expected_keywords": ["Apple", "Microsoft", "Amazon", "NVIDIA", "Alphabet"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "vam_07",
+          "question": "What was the best annual return year for the S&P 500 in the 2014-2023 period?",
+          "expected_keywords": ["2019", "28.88%"],
+          "answer_pages": [2],
+          "type": "table_reasoning"
+        },
+        {
+          "id": "vam_08",
+          "question": "What is the weight of the Energy sector in the S&P 500?",
+          "expected_keywords": ["3.90%", "3.9%"],
+          "answer_pages": [2],
+          "type": "chart_reading"
+        }
+      ]
+    },
+    "hubspot-q4": {
+      "pdf_path": "docs/hubspot-q4.pdf",
+      "questions": [
+        {
+          "id": "hub_01",
+          "question": "What was HubSpot's total revenue in Q4 2025?",
+          "expected_keywords": ["846.7", "846,746"],
+          "answer_pages": [1, 4],
+          "type": "factual"
+        },
+        {
+          "id": "hub_02",
+          "question": "What was HubSpot's non-GAAP operating margin in Q4 2025?",
+          "expected_keywords": ["22.6%", "22.6"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "hub_03",
+          "question": "How many customers did HubSpot have as of December 31, 2025?",
+          "expected_keywords": ["288,706"],
+          "answer_pages": [2],
+          "type": "factual"
+        },
+        {
+          "id": "hub_04",
+          "question": "What was HubSpot's total assets as of December 31, 2025?",
+          "expected_keywords": ["3,854,151"],
+          "answer_pages": [4],
+          "type": "table_lookup"
+        },
+        {
+          "id": "hub_05",
+          "question": "What was HubSpot's gross profit in Q4 2025?",
+          "expected_keywords": ["709,045"],
+          "answer_pages": [4, 5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "hub_06",
+          "question": "What was the cash and cash equivalents at end of period for HubSpot?",
+          "expected_keywords": ["884,945"],
+          "answer_pages": [5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "hub_07",
+          "question": "What is the expected total revenue for HubSpot's full year 2026?",
+          "expected_keywords": ["3.69", "3.70"],
+          "answer_pages": [3],
+          "type": "factual"
+        },
+        {
+          "id": "hub_08",
+          "question": "What was HubSpot's subscription revenue in Q4 2025?",
+          "expected_keywords": ["829.0", "828,980"],
+          "answer_pages": [1, 4],
+          "type": "factual"
+        },
+        {
+          "id": "hub_09",
+          "question": "What was HubSpot's net income per diluted share in Q4 2025?",
+          "expected_keywords": ["1.04"],
+          "answer_pages": [1, 5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "hub_10",
+          "question": "What was the share repurchase program amount authorized by HubSpot's board?",
+          "expected_keywords": ["1.0 billion"],
+          "answer_pages": [2],
+          "type": "factual"
+        }
+      ]
+    },
+    "hubspot-deck": {
+      "pdf_path": "docs/hubspot-deck.pdf",
+      "questions": [
+        {
+          "id": "deck_01",
+          "question": "What was HubSpot's total revenue in Q4 2025 from the investor deck?",
+          "expected_keywords": ["$847m", "847m", "$847"],
+          "answer_pages": [10],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_02",
+          "question": "What is HubSpot's revenue CAGR from Q1 2019 to Q4 2025?",
+          "expected_keywords": ["29%"],
+          "answer_pages": [14],
+          "type": "chart_reading"
+        },
+        {
+          "id": "deck_03",
+          "question": "What was the full year 2025 total revenue for HubSpot?",
+          "expected_keywords": ["$3,131m", "3,131"],
+          "answer_pages": [11],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_04",
+          "question": "What is HubSpot's long-term operating profit margin target?",
+          "expected_keywords": ["25%"],
+          "answer_pages": [18],
+          "type": "chart_reading"
+        },
+        {
+          "id": "deck_05",
+          "question": "What was the full year 2025 free cash flow?",
+          "expected_keywords": ["$595m", "595m", "$595"],
+          "answer_pages": [11],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_06",
+          "question": "What is HubSpot's customer count CAGR from Q1 2019 to Q4 2025?",
+          "expected_keywords": ["26%"],
+          "answer_pages": [15],
+          "type": "chart_reading"
+        },
+        {
+          "id": "deck_07",
+          "question": "What is HubSpot's cash position?",
+          "expected_keywords": ["$1.8", "1.8B"],
+          "answer_pages": [17],
+          "type": "factual"
+        },
+        {
+          "id": "deck_08",
+          "question": "What is the Q1 2026 total revenue guidance range?",
+          "expected_keywords": ["$862m", "$863m", "862", "863"],
+          "answer_pages": [12],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_09",
+          "question": "What was the full year 2025 operating profit margin?",
+          "expected_keywords": ["19%"],
+          "answer_pages": [11],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_10",
+          "question": "What is HubSpot's operating profit CAGR from Q1 2019 to Q4 2025?",
+          "expected_keywords": ["49%"],
+          "answer_pages": [16],
+          "type": "chart_reading"
+        },
+        {
+          "id": "deck_11",
+          "question": "What was the full year 2026 guidance for total revenue?",
+          "expected_keywords": ["$3,690m", "$3,700m", "3,690", "3,700"],
+          "answer_pages": [13],
+          "type": "table_lookup"
+        },
+        {
+          "id": "deck_12",
+          "question": "What is the 2027 operating profit margin target?",
+          "expected_keywords": ["20-22%", "20%", "22%"],
+          "answer_pages": [18],
+          "type": "chart_reading"
+        }
+      ]
+    },
+    "2023_report_40_pages": {
+      "pdf_path": "docs/2023_report_40_pages.pdf",
+      "questions": [
+        {
+          "id": "cabo_01",
+          "question": "What is Cable One's ticker symbol?",
+          "expected_keywords": ["CABO"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_02",
+          "question": "What is Cable One's Commission File Number?",
+          "expected_keywords": ["001-36863"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_03",
+          "question": "How many shares of common stock were outstanding as of February 16, 2024?",
+          "expected_keywords": ["5,619,109"],
+          "answer_pages": [2],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_04",
+          "question": "What was the aggregate market value of Cable One's stock held by non-affiliates?",
+          "expected_keywords": ["3.7 billion"],
+          "answer_pages": [2],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_05",
+          "question": "What percentage of Cable One's total revenues came from residential data in 2023?",
+          "expected_keywords": ["58.4%", "58.4"],
+          "answer_pages": [5],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_06",
+          "question": "How many homes did Cable One pass as of December 31, 2023?",
+          "expected_keywords": ["2.8 million"],
+          "answer_pages": [5],
+          "type": "factual"
+        },
+        {
+          "id": "cabo_08",
+          "question": "What are Cable One's brand names?",
+          "expected_keywords": ["Sparklight", "Hargray"],
+          "answer_pages": [5],
+          "type": "factual"
+        }
+      ]
+    },
+    "10Q": {
+      "pdf_path": "docs/10Q.pdf",
+      "questions": [
+        {
+          "id": "wow_01",
+          "question": "What is WideOpenWest's ticker symbol?",
+          "expected_keywords": ["WOW"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "wow_02",
+          "question": "What was WideOpenWest's total assets as of June 30, 2023?",
+          "expected_keywords": ["1,621.4"],
+          "answer_pages": [4],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_03",
+          "question": "What was WOW's revenue for the three months ended June 30, 2023?",
+          "expected_keywords": ["172.6"],
+          "answer_pages": [5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_04",
+          "question": "What was WOW's cash and cash equivalents as of June 30, 2023?",
+          "expected_keywords": ["23.0"],
+          "answer_pages": [4],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_05",
+          "question": "How many shares of common stock were outstanding as of August 4, 2023?",
+          "expected_keywords": ["83,693,578"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "wow_06",
+          "question": "What was the IRS Employer Identification Number for WideOpenWest?",
+          "expected_keywords": ["46-0552948"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "wow_07",
+          "question": "What was WOW's net loss for the three months ended June 30, 2023?",
+          "expected_keywords": ["101.7"],
+          "answer_pages": [5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_08",
+          "question": "What was the total residential subscription revenue for Q2 2023?",
+          "expected_keywords": ["132.2"],
+          "answer_pages": [9],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_09",
+          "question": "What was the impairment loss on intangibles for Q2 2023?",
+          "expected_keywords": ["128.1"],
+          "answer_pages": [5],
+          "type": "table_lookup"
+        },
+        {
+          "id": "wow_10",
+          "question": "In which state is WideOpenWest incorporated?",
+          "expected_keywords": ["Delaware"],
+          "answer_pages": [1],
+          "type": "factual"
+        }
+      ]
+    },
+    "kiski": {
+      "pdf_path": "docs/kiski.pdf",
+      "questions": [
+        {
+          "id": "kis_01",
+          "question": "What is the BOD MV (Beginning of Day Market Value) for KISKI?",
+          "expected_keywords": ["977,761,909"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "kis_02",
+          "question": "What was the fund's return period to date?",
+          "expected_keywords": ["-4.2%"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_03",
+          "question": "What was the fund's Sharpe ratio period to date?",
+          "expected_keywords": ["-7.28"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_04",
+          "question": "What is the average gross exposure for the fund?",
+          "expected_keywords": ["151%"],
+          "answer_pages": [1],
+          "type": "chart_reading"
+        },
+        {
+          "id": "kis_05",
+          "question": "What was the top contributor to performance?",
+          "expected_keywords": ["CW"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_06",
+          "question": "What is the total fund net equity?",
+          "expected_keywords": ["379M"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_07",
+          "question": "What was the net equity percentage for the total fund?",
+          "expected_keywords": ["66.5%"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_08",
+          "question": "What is the Beta Adj Exposure for SPX Index at 1 year?",
+          "expected_keywords": ["512.3M"],
+          "answer_pages": [1],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_09",
+          "question": "What was the long net position dollar value for ATR Shock?",
+          "expected_keywords": ["643,068,118"],
+          "answer_pages": [4],
+          "type": "table_lookup"
+        },
+        {
+          "id": "kis_10",
+          "question": "What is the total fund P&L for the Detail page?",
+          "expected_keywords": ["-49,874K"],
+          "answer_pages": [3],
+          "type": "table_lookup"
+        }
+      ]
+    },
+    "meta_10q": {
+      "pdf_path": "docs/meta_10q.pdf",
+      "questions": [
+        {
+          "id": "meta_01",
+          "question": "What was Meta's total revenue for the three months ended September 30, 2025?",
+          "expected_keywords": ["51,242"],
+          "answer_pages": [7],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_02",
+          "question": "What was Meta's total assets as of September 30, 2025?",
+          "expected_keywords": ["303,844"],
+          "answer_pages": [6],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_03",
+          "question": "What was the net value of Meta's property and equipment as of September 30, 2025?",
+          "expected_keywords": ["160,270"],
+          "answer_pages": [6, 18],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_04",
+          "question": "What was Meta's diluted earnings per share for the nine months ended September 30, 2025?",
+          "expected_keywords": ["14.62"],
+          "answer_pages": [7, 14],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_05",
+          "question": "What was Reality Labs' revenue for Q3 2025 and what was its operating loss?",
+          "expected_keywords": ["470", "4,432"],
+          "answer_pages": [33, 30],
+          "type": "table_reasoning"
+        },
+        {
+          "id": "meta_06",
+          "question": "How much did Meta's advertising revenue grow year-over-year for the three months ended September 30, 2025?",
+          "expected_keywords": ["26%", "26 %", "10.20 billion", "10,197"],
+          "answer_pages": [43],
+          "type": "table_reasoning"
+        },
+        {
+          "id": "meta_07",
+          "question": "What was Meta's net cash provided by operating activities for the nine months ended September 30, 2025?",
+          "expected_keywords": ["79,586"],
+          "answer_pages": [10, 47],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_08",
+          "question": "What was the worldwide daily active people (DAP) for Meta's Family of Apps as of September 2025?",
+          "expected_keywords": ["3.54", "3.54 billion"],
+          "answer_pages": [33, 37],
+          "type": "chart_reading"
+        },
+        {
+          "id": "meta_09",
+          "question": "What was Meta's worldwide average revenue per person (ARPP) in Q3 2025?",
+          "expected_keywords": ["14.46", "$14.46"],
+          "answer_pages": [38],
+          "type": "chart_reading"
+        },
+        {
+          "id": "meta_10",
+          "question": "How much did Meta invest in Scale AI and how was it accounted for?",
+          "expected_keywords": ["13.79", "13.79 billion", "measurement alternative"],
+          "answer_pages": [17],
+          "type": "factual"
+        },
+        {
+          "id": "meta_11",
+          "question": "What was the one-time income tax charge Meta recorded related to the One Big Beautiful Bill Act (OBBBA)?",
+          "expected_keywords": ["15.93", "$15.93 billion"],
+          "answer_pages": [29, 46],
+          "type": "factual"
+        },
+        {
+          "id": "meta_12",
+          "question": "How much did Reality Labs reduce Meta's overall operating profit in the nine months ended September 30, 2025?",
+          "expected_keywords": ["13.17", "$13.17 billion", "13,171"],
+          "answer_pages": [35, 45],
+          "type": "table_reasoning"
+        },
+        {
+          "id": "meta_13",
+          "question": "What was the value of servers and network assets on Meta's balance sheet as of September 30, 2025?",
+          "expected_keywords": ["92,142"],
+          "answer_pages": [18],
+          "type": "table_lookup"
+        },
+        {
+          "id": "meta_14",
+          "question": "What is Meta's expected capital expenditure range for 2025?",
+          "expected_keywords": ["$70 billion", "$72 billion", "70", "72"],
+          "answer_pages": [48],
+          "type": "factual"
+        },
+        {
+          "id": "meta_15",
+          "question": "Summarize Meta's position on Reality Labs and why they continue investing in it despite significant operating losses.",
+          "expected_keywords": ["next computing platform", "metaverse", "long-term", "virtual", "augmented"],
+          "answer_pages": [35],
+          "type": "summarization"
+        }
+      ]
+    },
+    "report": {
+      "pdf_path": "docs/report.pdf",
+      "questions": [
+        {
+          "id": "rpt_01",
+          "question": "What is Cable One's IRS Employer Identification Number?",
+          "expected_keywords": ["13-3060083"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_02",
+          "question": "What percentage of Cable One's total revenues came from residential data in 2023?",
+          "expected_keywords": ["58%", "58.4"],
+          "answer_pages": [4],
+          "type": "chart_reading"
+        },
+        {
+          "id": "rpt_03",
+          "question": "How many homes did Cable One pass as of December 31, 2023?",
+          "expected_keywords": ["2.8 million"],
+          "answer_pages": [3],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_04",
+          "question": "What was Cable One's ticker symbol?",
+          "expected_keywords": ["CABO"],
+          "answer_pages": [1],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_05",
+          "question": "How much did Cable One invest in broadband infrastructure over the last three years?",
+          "expected_keywords": ["$1.2 billion", "1.2 billion"],
+          "answer_pages": [8],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_06",
+          "question": "What percentage of total capital expenditures since 2017 were focused on infrastructure?",
+          "expected_keywords": ["69%"],
+          "answer_pages": [5],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_07",
+          "question": "How many shares of Cable One's common stock were outstanding as of February 16, 2024?",
+          "expected_keywords": ["5,619,109"],
+          "answer_pages": [2],
+          "type": "factual"
+        },
+        {
+          "id": "rpt_08",
+          "question": "What was the approximate aggregate market value of Cable One stock held by non-affiliates?",
+          "expected_keywords": ["3.7 billion"],
+          "answer_pages": [2],
+          "type": "factual"
+        }
+      ]
+    }
+  }
+}

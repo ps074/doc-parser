@@ -23,6 +23,7 @@ import pymupdf as fitz
 import pypdfium2 as pdfium
 from openai import AsyncOpenAI
 
+from config import MAX_TOKENS_PAGE_EXTRACTION, DEFAULT_DPI
 from page_classifier import (
     Complexity,
     PageClassification,
@@ -59,7 +60,13 @@ like "what was the gross exposure trend?" — your description must answer such 
 Do NOT list axis labels mechanically.
 3. TEXT: Preserve all text, headings, footnotes exactly.
 4. NUMBERS: Never round or approximate.
-5. Be concise but complete — every data point matters, no commentary."""
+5. Be concise but complete — every data point matters, no commentary.
+6. NEVER stop early. NEVER add notes about content being "cut off", "truncated", \
+"incomplete", "abrupt", or any similar commentary. Extract EVERY line of text visible \
+on the page, all the way to the very last line. Pages in press releases and financial \
+documents often end mid-sentence — this is normal (the sentence continues on the next \
+page). Simply output the text exactly as it appears, even if incomplete. If text is \
+hard to read, use the OCR cross-reference provided."""
 
 
 def _build_user_prompt(
@@ -88,15 +95,17 @@ def _build_user_prompt(
             f"Leave nothing out."
         )
 
-    # OCR text as cross-reference (keep short — image is primary source)
+    # OCR text as cross-reference — send full text so the model can
+    # cross-reference numbers and values even at the bottom of the page
     for i, (pn, ocr) in enumerate(zip(page_nums, ocr_texts)):
         if ocr.strip():
-            truncated = ocr[:1500] if len(ocr) > 1500 else ocr
             parts.append(
                 f"\n<ocr_text page=\"{pn}\">\n"
-                f"Raw text from PDF text layer for cross-referencing numbers "
-                f"and values. Image is the source of truth for layout.\n\n"
-                f"{truncated}\n"
+                f"Complete text from PDF text layer for cross-referencing numbers "
+                f"and values. Image is the source of truth for layout. "
+                f"Make sure to extract ALL text including content at the bottom "
+                f"of the page.\n\n"
+                f"{ocr}\n"
                 f"</ocr_text>"
             )
 
@@ -154,6 +163,16 @@ def is_openai_model(model: str) -> bool:
     return model.startswith("gpt-")
 
 
+def _strip_code_fences(text: str) -> str:
+    """Strip ```markdown ... ``` code fences that LLMs wrap around output."""
+    import re
+    stripped = text.strip()
+    # Match opening ```markdown (or ```md, or just ```) and closing ```
+    stripped = re.sub(r"^```(?:markdown|md)?\s*\n", "", stripped)
+    stripped = re.sub(r"\n```\s*$", "", stripped)
+    return stripped.strip()
+
+
 # --- Core processing ---
 
 def render_pages(pdf_path: Path, page_nums: list[int], dpi: int = 200) -> list[bytes]:
@@ -183,12 +202,20 @@ def extract_ocr_texts(pdf_path: Path, page_nums: list[int]) -> list[str]:
 
 
 async def _call_anthropic(client, model, content, system):
-    """Make an Anthropic API call."""
-    response = await client.messages.create(
-        model=model, max_tokens=8192, system=system,
+    """Make an Anthropic API call using streaming (required for large max_tokens)."""
+    result_text = ""
+    stop_reason = None
+    async with client.messages.stream(
+        model=model, max_tokens=MAX_TOKENS_PAGE_EXTRACTION, system=system,
         messages=[{"role": "user", "content": content}],
-    )
-    return response.content[0].text
+    ) as stream:
+        async for text in stream.text_stream:
+            result_text += text
+        response = await stream.get_final_message()
+        stop_reason = response.stop_reason
+    if stop_reason == "max_tokens":
+        print(f"  WARNING: Anthropic response truncated (hit {MAX_TOKENS_PAGE_EXTRACTION} token limit)")
+    return result_text
 
 
 async def _call_openai(openai_client, model, images, user_prompt, system):
@@ -203,12 +230,14 @@ async def _call_openai(openai_client, model, images, user_prompt, system):
     oai_content.append({"type": "text", "text": user_prompt})
 
     response = await openai_client.chat.completions.create(
-        model=model, max_tokens=8192,
+        model=model, max_tokens=MAX_TOKENS_PAGE_EXTRACTION,
         messages=[
             {"role": "system", "content": system},
             {"role": "user", "content": oai_content},
         ],
     )
+    if response.choices[0].finish_reason == "length":
+        print(f"  WARNING: OpenAI response truncated (hit {MAX_TOKENS_PAGE_EXTRACTION} token limit)")
     return response.choices[0].message.content
 
 
@@ -274,6 +303,17 @@ async def process_work_item(
                 else:
                     raise
 
+        # Strip code fences that LLMs often wrap around markdown output
+        result_markdown = _strip_code_fences(result_markdown)
+
+        # Add page markers for consistent downstream parsing
+        if len(item.pages) == 1:
+            result_markdown = f"<!-- page: {item.pages[0]} -->\n\n{result_markdown}"
+        else:
+            # Multi-page group: single marker with the first page number
+            page_label = ", ".join(str(p) for p in item.pages)
+            result_markdown = f"<!-- page: {item.pages[0]} -->\n<!-- pages: {page_label} -->\n\n{result_markdown}"
+
         elapsed = time.time() - start
         model_short = model_used.split("-")[1] if "-" in model_used else model_used
         fb = f" (fallback: {model_used})" if fallback_used else ""
@@ -321,7 +361,7 @@ def build_work_items(
     pdf_path: Path,
     classifications: list[PageClassification],
     groups: list[PageGroup],
-    dpi: int = 150,
+    dpi: int = DEFAULT_DPI,
 ) -> list[WorkItem]:
     """Build work items from classifications, respecting page groups."""
     # Track which pages are in a group
@@ -379,7 +419,7 @@ def build_work_items(
 
 async def run_pipeline(
     pdf_path: Path,
-    dpi: int = 150,
+    dpi: int = DEFAULT_DPI,
     max_concurrent: int = 50,
     output_dir: Path | None = None,
     use_vertex: bool = False,
@@ -527,6 +567,16 @@ async def run_pipeline(
     meta_path.write_text(json.dumps(meta, indent=2))
     print(f"Metadata saved to: {meta_path}")
 
+    # Mirror output to project root output dir (eval_chunking.py looks there)
+    project_root = Path(__file__).resolve().parent.parent
+    root_output_dir = project_root / "output" / "pipeline" / pdf_path.stem
+    if root_output_dir.resolve() != output_dir.resolve():
+        import shutil
+        root_output_dir.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(md_path, root_output_dir / md_path.name)
+        shutil.copy2(meta_path, root_output_dir / meta_path.name)
+        print(f"Mirrored to: {root_output_dir}")
+
     return all_results
 
 
@@ -537,8 +587,8 @@ def main():
     parser.add_argument("input", help="Path to PDF file")
     parser.add_argument("-o", "--output-dir", help="Output directory")
     parser.add_argument(
-        "--dpi", type=int, default=150,
-        help="Render DPI for vision pages (default: 150)",
+        "--dpi", type=int, default=DEFAULT_DPI,
+        help=f"Render DPI for vision pages (default: {DEFAULT_DPI})",
     )
     parser.add_argument(
         "--max-concurrent", type=int, default=50,

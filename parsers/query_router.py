@@ -22,6 +22,8 @@ from pathlib import Path
 import pymupdf as fitz
 import pypdfium2 as pdfium
 
+from config import MAX_TOKENS_QUERY_ANSWER, DEFAULT_DPI, DEFAULT_FAST_MODEL
+
 
 class EnrichmentStatus(str, Enum):
     PENDING = "pending"      # Only basic text available
@@ -204,8 +206,8 @@ async def answer_from_vision(
     content.append({"type": "text", "text": query})
 
     response = await openai_client.chat.completions.create(
-        model="gpt-4.1-mini",
-        max_tokens=2048,
+        model=DEFAULT_FAST_MODEL,
+        max_tokens=MAX_TOKENS_QUERY_ANSWER,
         messages=[
             {"role": "system", "content": "Answer the user's question about this document page(s). Be precise with numbers and data."},
             {"role": "user", "content": content},

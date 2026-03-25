@@ -1,0 +1,5952 @@
+[
+  {
+    "chunker": "page_level",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 36.6,
+    "avg_chunk_tokens": 1115.3,
+    "recall@1": 0.61,
+    "recall@3": 0.877,
+    "recall@5": 0.918,
+    "recall@10": 0.982,
+    "per_document": [
+      {
+        "chunker": "page_level",
+        "num_chunks": 2,
+        "avg_chunk_tokens": 761.5,
+        "min_chunk_tokens": 445,
+        "max_chunk_tokens": 1078,
+        "recall@1": 0.375,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 5.138
+      },
+      {
+        "chunker": "page_level",
+        "num_chunks": 10,
+        "avg_chunk_tokens": 1063.3,
+        "min_chunk_tokens": 323,
+        "max_chunk_tokens": 1569,
+        "recall@1": 0.6,
+        "recall@3": 0.8,
+        "recall@5": 0.8,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.589
+      },
+      {
+        "chunker": "page_level",
+        "num_chunks": 26,
+        "avg_chunk_tokens": 217.3,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 743,
+        "recall@1": 0.667,
+        "recall@3": 0.917,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.777
+      },
+      {
+        "chunker": "page_level",
+        "num_chunks": 40,
+        "avg_chunk_tokens": 871.0,
+        "min_chunk_tokens": 357,
+        "max_chunk_tokens": 1119,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.634
+      },
+      {
+        "chunker": "page_level",
+        "num_chunks": 32,
+        "avg_chunk_tokens": 949.2,
+        "min_chunk_tokens": 101,
+        "max_chunk_tokens": 2082,
+        "recall@1": 0.6,
+        "recall@3": 0.8,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.005
+      },
+      {
+        "chunker": "page_level",
+        "num_chunks": 20,
+        "avg_chunk_tokens": 2984.2,
+        "min_chunk_tokens": 8,
+        "max_chunk_tokens": 8598,
+        "recall@1": 0.9,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.15
+      },
+      {
+        "chunker": "page_level",
+        "num_chunks": 126,
+        "avg_chunk_tokens": 960.5,
+        "min_chunk_tokens": 14,
+        "max_chunk_tokens": 2588,
+        "recall@1": 0.375,
+        "recall@3": 0.625,
+        "recall@5": 0.625,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.911
+      }
+    ]
+  },
+  {
+    "chunker": "fixed_256",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 172.3,
+    "avg_chunk_tokens": 206.6,
+    "recall@1": 0.542,
+    "recall@3": 0.764,
+    "recall@5": 0.861,
+    "recall@10": 0.968,
+    "per_document": [
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 7,
+        "avg_chunk_tokens": 216.4,
+        "min_chunk_tokens": 77,
+        "max_chunk_tokens": 300,
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.759
+      },
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 53,
+        "avg_chunk_tokens": 199.7,
+        "min_chunk_tokens": 14,
+        "max_chunk_tokens": 440,
+        "recall@1": 0.5,
+        "recall@3": 0.7,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.584
+      },
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 41,
+        "avg_chunk_tokens": 137.4,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 261,
+        "recall@1": 0.667,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.016
+      },
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 166,
+        "avg_chunk_tokens": 210.2,
+        "min_chunk_tokens": 31,
+        "max_chunk_tokens": 662,
+        "recall@1": 0.5,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 2.837
+      },
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 141,
+        "avg_chunk_tokens": 213.8,
+        "min_chunk_tokens": 15,
+        "max_chunk_tokens": 759,
+        "recall@1": 0.7,
+        "recall@3": 0.9,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.764
+      },
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 234,
+        "avg_chunk_tokens": 254.7,
+        "min_chunk_tokens": 8,
+        "max_chunk_tokens": 1335,
+        "recall@1": 0.3,
+        "recall@3": 0.5,
+        "recall@5": 0.6,
+        "recall@10": 0.9,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "kis_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.869
+      },
+      {
+        "chunker": "fixed_256",
+        "num_chunks": 564,
+        "avg_chunk_tokens": 214.0,
+        "min_chunk_tokens": 13,
+        "max_chunk_tokens": 662,
+        "recall@1": 0.125,
+        "recall@3": 0.25,
+        "recall@5": 0.625,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.197
+      }
+    ]
+  },
+  {
+    "chunker": "fixed_512",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 93.7,
+    "avg_chunk_tokens": 370.9,
+    "recall@1": 0.554,
+    "recall@3": 0.846,
+    "recall@5": 0.889,
+    "recall@10": 0.982,
+    "per_document": [
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 4,
+        "avg_chunk_tokens": 379.5,
+        "min_chunk_tokens": 44,
+        "max_chunk_tokens": 522,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.545
+      },
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 28,
+        "avg_chunk_tokens": 378.0,
+        "min_chunk_tokens": 22,
+        "max_chunk_tokens": 512,
+        "recall@1": 0.6,
+        "recall@3": 0.7,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.532
+      },
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 32,
+        "avg_chunk_tokens": 176.0,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 524,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.552
+      },
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 90,
+        "avg_chunk_tokens": 387.7,
+        "min_chunk_tokens": 20,
+        "max_chunk_tokens": 662,
+        "recall@1": 0.5,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 2.919
+      },
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 76,
+        "avg_chunk_tokens": 396.8,
+        "min_chunk_tokens": 43,
+        "max_chunk_tokens": 759,
+        "recall@1": 0.6,
+        "recall@3": 0.9,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.65
+      },
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 125,
+        "avg_chunk_tokens": 477.0,
+        "min_chunk_tokens": 8,
+        "max_chunk_tokens": 1335,
+        "recall@1": 0.3,
+        "recall@3": 0.7,
+        "recall@5": 0.8,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.245
+      },
+      {
+        "chunker": "fixed_512",
+        "num_chunks": 301,
+        "avg_chunk_tokens": 401.1,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 662,
+        "recall@1": 0.375,
+        "recall@3": 0.625,
+        "recall@5": 0.625,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.058
+      }
+    ]
+  },
+  {
+    "chunker": "fixed_512_overlap102",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 101.6,
+    "avg_chunk_tokens": 392.3,
+    "recall@1": 0.552,
+    "recall@3": 0.861,
+    "recall@5": 0.889,
+    "recall@10": 0.968,
+    "per_document": [
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 4,
+        "avg_chunk_tokens": 412.0,
+        "min_chunk_tokens": 171,
+        "max_chunk_tokens": 522,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.235
+      },
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 29,
+        "avg_chunk_tokens": 408.2,
+        "min_chunk_tokens": 122,
+        "max_chunk_tokens": 516,
+        "recall@1": 0.6,
+        "recall@3": 0.8,
+        "recall@5": 0.8,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.605
+      },
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 32,
+        "avg_chunk_tokens": 192.3,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 524,
+        "recall@1": 0.667,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.924
+      },
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 97,
+        "avg_chunk_tokens": 406.3,
+        "min_chunk_tokens": 68,
+        "max_chunk_tokens": 760,
+        "recall@1": 0.5,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 2.682
+      },
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 79,
+        "avg_chunk_tokens": 423.0,
+        "min_chunk_tokens": 43,
+        "max_chunk_tokens": 802,
+        "recall@1": 0.7,
+        "recall@3": 0.8,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.849
+      },
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 145,
+        "avg_chunk_tokens": 483.1,
+        "min_chunk_tokens": 8,
+        "max_chunk_tokens": 1368,
+        "recall@1": 0.4,
+        "recall@3": 0.8,
+        "recall@5": 0.9,
+        "recall@10": 0.9,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "kis_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.33
+      },
+      {
+        "chunker": "fixed_512_overlap102",
+        "num_chunks": 325,
+        "avg_chunk_tokens": 421.1,
+        "min_chunk_tokens": 14,
+        "max_chunk_tokens": 760,
+        "recall@1": 0.25,
+        "recall@3": 0.625,
+        "recall@5": 0.625,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.647
+      }
+    ]
+  },
+  {
+    "chunker": "recursive",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 103.7,
+    "avg_chunk_tokens": 346.8,
+    "recall@1": 0.604,
+    "recall@3": 0.8,
+    "recall@5": 0.875,
+    "recall@10": 0.982,
+    "per_document": [
+      {
+        "chunker": "recursive",
+        "num_chunks": 4,
+        "avg_chunk_tokens": 380.5,
+        "min_chunk_tokens": 125,
+        "max_chunk_tokens": 512,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.244
+      },
+      {
+        "chunker": "recursive",
+        "num_chunks": 28,
+        "avg_chunk_tokens": 379.2,
+        "min_chunk_tokens": 65,
+        "max_chunk_tokens": 511,
+        "recall@1": 0.7,
+        "recall@3": 0.7,
+        "recall@5": 0.8,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.053
+      },
+      {
+        "chunker": "recursive",
+        "num_chunks": 32,
+        "avg_chunk_tokens": 176.5,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 500,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.694
+      },
+      {
+        "chunker": "recursive",
+        "num_chunks": 99,
+        "avg_chunk_tokens": 351.8,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 512,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.283
+      },
+      {
+        "chunker": "recursive",
+        "num_chunks": 81,
+        "avg_chunk_tokens": 374.5,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 512,
+        "recall@1": 0.5,
+        "recall@3": 0.7,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.172
+      },
+      {
+        "chunker": "recursive",
+        "num_chunks": 148,
+        "avg_chunk_tokens": 402.9,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 512,
+        "recall@1": 0.4,
+        "recall@3": 0.7,
+        "recall@5": 0.8,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.959
+      },
+      {
+        "chunker": "recursive",
+        "num_chunks": 334,
+        "avg_chunk_tokens": 362.1,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 512,
+        "recall@1": 0.375,
+        "recall@3": 0.5,
+        "recall@5": 0.625,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.082
+      }
+    ]
+  },
+  {
+    "chunker": "heading_based",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 67.7,
+    "avg_chunk_tokens": 488.7,
+    "recall@1": 0.629,
+    "recall@3": 0.836,
+    "recall@5": 0.854,
+    "recall@10": 0.964,
+    "per_document": [
+      {
+        "chunker": "heading_based",
+        "num_chunks": 6,
+        "avg_chunk_tokens": 253.3,
+        "min_chunk_tokens": 5,
+        "max_chunk_tokens": 953,
+        "recall@1": 0.625,
+        "recall@3": 0.875,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.369
+      },
+      {
+        "chunker": "heading_based",
+        "num_chunks": 17,
+        "avg_chunk_tokens": 622.8,
+        "min_chunk_tokens": 22,
+        "max_chunk_tokens": 1019,
+        "recall@1": 0.7,
+        "recall@3": 0.8,
+        "recall@5": 0.8,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.538
+      },
+      {
+        "chunker": "heading_based",
+        "num_chunks": 39,
+        "avg_chunk_tokens": 144.7,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 743,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.901
+      },
+      {
+        "chunker": "heading_based",
+        "num_chunks": 50,
+        "avg_chunk_tokens": 697.0,
+        "min_chunk_tokens": 25,
+        "max_chunk_tokens": 1024,
+        "recall@1": 0.625,
+        "recall@3": 0.875,
+        "recall@5": 0.875,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 2.997
+      },
+      {
+        "chunker": "heading_based",
+        "num_chunks": 57,
+        "avg_chunk_tokens": 532.3,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 994,
+        "recall@1": 0.6,
+        "recall@3": 0.9,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.082
+      },
+      {
+        "chunker": "heading_based",
+        "num_chunks": 106,
+        "avg_chunk_tokens": 562.5,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 1335,
+        "recall@1": 0.6,
+        "recall@3": 0.9,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.359
+      },
+      {
+        "chunker": "heading_based",
+        "num_chunks": 199,
+        "avg_chunk_tokens": 608.1,
+        "min_chunk_tokens": 4,
+        "max_chunk_tokens": 1029,
+        "recall@1": 0.5,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.861
+      }
+    ]
+  },
+  {
+    "chunker": "table_aware",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 161.9,
+    "avg_chunk_tokens": 245.6,
+    "recall@1": 0.568,
+    "recall@3": 0.832,
+    "recall@5": 0.875,
+    "recall@10": 0.954,
+    "per_document": [
+      {
+        "chunker": "table_aware",
+        "num_chunks": 6,
+        "avg_chunk_tokens": 253.2,
+        "min_chunk_tokens": 2,
+        "max_chunk_tokens": 522,
+        "recall@1": 0.875,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.25
+      },
+      {
+        "chunker": "table_aware",
+        "num_chunks": 28,
+        "avg_chunk_tokens": 378.1,
+        "min_chunk_tokens": 22,
+        "max_chunk_tokens": 512,
+        "recall@1": 0.6,
+        "recall@3": 0.7,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.771
+      },
+      {
+        "chunker": "table_aware",
+        "num_chunks": 105,
+        "avg_chunk_tokens": 53.4,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 502,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.872
+      },
+      {
+        "chunker": "table_aware",
+        "num_chunks": 91,
+        "avg_chunk_tokens": 383.4,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 662,
+        "recall@1": 0.5,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 2.829
+      },
+      {
+        "chunker": "table_aware",
+        "num_chunks": 229,
+        "avg_chunk_tokens": 131.6,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 759,
+        "recall@1": 0.7,
+        "recall@3": 0.8,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.63
+      },
+      {
+        "chunker": "table_aware",
+        "num_chunks": 272,
+        "avg_chunk_tokens": 219.0,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 3045,
+        "recall@1": 0.3,
+        "recall@3": 0.7,
+        "recall@5": 0.7,
+        "recall@10": 0.8,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "kis_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "kis_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.415
+      },
+      {
+        "chunker": "table_aware",
+        "num_chunks": 402,
+        "avg_chunk_tokens": 300.4,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 1685,
+        "recall@1": 0.25,
+        "recall@3": 0.625,
+        "recall@5": 0.625,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.934
+      }
+    ]
+  },
+  {
+    "chunker": "element_type",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 122.0,
+    "avg_chunk_tokens": 444.9,
+    "recall@1": 0.696,
+    "recall@3": 0.843,
+    "recall@5": 0.871,
+    "recall@10": 0.964,
+    "per_document": [
+      {
+        "chunker": "element_type",
+        "num_chunks": 5,
+        "avg_chunk_tokens": 304.2,
+        "min_chunk_tokens": 2,
+        "max_chunk_tokens": 955,
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.023
+      },
+      {
+        "chunker": "element_type",
+        "num_chunks": 10,
+        "avg_chunk_tokens": 1063.3,
+        "min_chunk_tokens": 323,
+        "max_chunk_tokens": 1569,
+        "recall@1": 0.6,
+        "recall@3": 0.8,
+        "recall@5": 0.8,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.195
+      },
+      {
+        "chunker": "element_type",
+        "num_chunks": 103,
+        "avg_chunk_tokens": 54.4,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 743,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.056
+      },
+      {
+        "chunker": "element_type",
+        "num_chunks": 42,
+        "avg_chunk_tokens": 829.5,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 1119,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 2.623
+      },
+      {
+        "chunker": "element_type",
+        "num_chunks": 199,
+        "avg_chunk_tokens": 151.8,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 1057,
+        "recall@1": 0.6,
+        "recall@3": 0.7,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.597
+      },
+      {
+        "chunker": "element_type",
+        "num_chunks": 221,
+        "avg_chunk_tokens": 269.7,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 4292,
+        "recall@1": 0.8,
+        "recall@3": 0.9,
+        "recall@5": 0.9,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "kis_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.34
+      },
+      {
+        "chunker": "element_type",
+        "num_chunks": 274,
+        "avg_chunk_tokens": 441.5,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 1685,
+        "recall@1": 0.375,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.75,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.673
+      }
+    ]
+  },
+  {
+    "chunker": "semantic",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 268.0,
+    "avg_chunk_tokens": 124.4,
+    "recall@1": 0.546,
+    "recall@3": 0.695,
+    "recall@5": 0.843,
+    "recall@10": 0.907,
+    "per_document": [
+      {
+        "chunker": "semantic",
+        "num_chunks": 16,
+        "avg_chunk_tokens": 92.2,
+        "min_chunk_tokens": 4,
+        "max_chunk_tokens": 281,
+        "recall@1": 0.375,
+        "recall@3": 0.625,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.911
+      },
+      {
+        "chunker": "semantic",
+        "num_chunks": 60,
+        "avg_chunk_tokens": 174.2,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 506,
+        "recall@1": 0.6,
+        "recall@3": 0.8,
+        "recall@5": 0.8,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 10.241
+      },
+      {
+        "chunker": "semantic",
+        "num_chunks": 111,
+        "avg_chunk_tokens": 48.9,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 176,
+        "recall@1": 0.75,
+        "recall@3": 0.917,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 13.799
+      },
+      {
+        "chunker": "semantic",
+        "num_chunks": 251,
+        "avg_chunk_tokens": 138.0,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 662,
+        "recall@1": 0.75,
+        "recall@3": 0.875,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 27.34
+      },
+      {
+        "chunker": "semantic",
+        "num_chunks": 286,
+        "avg_chunk_tokens": 104.6,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 759,
+        "recall@1": 0.9,
+        "recall@3": 0.9,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 22.957
+      },
+      {
+        "chunker": "semantic",
+        "num_chunks": 362,
+        "avg_chunk_tokens": 162.1,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 3045,
+        "recall@1": 0.2,
+        "recall@3": 0.5,
+        "recall@5": 0.6,
+        "recall@10": 0.6,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "kis_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "kis_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "kis_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "kis_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 21.552
+      },
+      {
+        "chunker": "semantic",
+        "num_chunks": 790,
+        "avg_chunk_tokens": 151.1,
+        "min_chunk_tokens": 1,
+        "max_chunk_tokens": 1685,
+        "recall@1": 0.25,
+        "recall@3": 0.25,
+        "recall@5": 0.5,
+        "recall@10": 0.75,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 85.246
+      }
+    ]
+  },
+  {
+    "chunker": "structure_aware",
+    "parser": "pymupdf_fast",
+    "retrieval": "hybrid",
+    "num_docs": 7,
+    "avg_num_chunks": 133.7,
+    "avg_chunk_tokens": 339.2,
+    "recall@1": 0.63,
+    "recall@3": 0.825,
+    "recall@5": 0.882,
+    "recall@10": 0.946,
+    "per_document": [
+      {
+        "chunker": "structure_aware",
+        "num_chunks": 7,
+        "avg_chunk_tokens": 217.7,
+        "min_chunk_tokens": 5,
+        "max_chunk_tokens": 953,
+        "recall@1": 0.75,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "vam_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "vam_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "VAM-3852AO",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.18
+      },
+      {
+        "chunker": "structure_aware",
+        "num_chunks": 17,
+        "avg_chunk_tokens": 622.8,
+        "min_chunk_tokens": 22,
+        "max_chunk_tokens": 1019,
+        "recall@1": 0.7,
+        "recall@3": 0.8,
+        "recall@5": 0.8,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "hub_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_04",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "hub_06",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "hub_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-q4",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.129
+      },
+      {
+        "chunker": "structure_aware",
+        "num_chunks": 103,
+        "avg_chunk_tokens": 56.4,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 743,
+        "recall@1": 0.833,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "deck_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_09",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_11",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "deck_12",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "hubspot-deck",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 4.134
+      },
+      {
+        "chunker": "structure_aware",
+        "num_chunks": 51,
+        "avg_chunk_tokens": 683.4,
+        "min_chunk_tokens": 4,
+        "max_chunk_tokens": 1024,
+        "recall@1": 0.625,
+        "recall@3": 0.875,
+        "recall@5": 0.875,
+        "recall@10": 0.875,
+        "per_question": [
+          {
+            "id": "cabo_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_02",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "cabo_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "cabo_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "2023_report_40_pages",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 2.83
+      },
+      {
+        "chunker": "structure_aware",
+        "num_chunks": 203,
+        "avg_chunk_tokens": 151.0,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 982,
+        "recall@1": 0.6,
+        "recall@3": 0.8,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "wow_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_03",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_06",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_08",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_09",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "wow_10",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "10Q",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.772
+      },
+      {
+        "chunker": "structure_aware",
+        "num_chunks": 259,
+        "avg_chunk_tokens": 233.1,
+        "min_chunk_tokens": 3,
+        "max_chunk_tokens": 3048,
+        "recall@1": 0.4,
+        "recall@3": 0.8,
+        "recall@5": 1.0,
+        "recall@10": 1.0,
+        "per_question": [
+          {
+            "id": "kis_01",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_04",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_05",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_07",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_08",
+            "recall@1": false,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_09",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "kis_10",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          }
+        ],
+        "document": "kiski",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.901
+      },
+      {
+        "chunker": "structure_aware",
+        "num_chunks": 296,
+        "avg_chunk_tokens": 409.8,
+        "min_chunk_tokens": 4,
+        "max_chunk_tokens": 1688,
+        "recall@1": 0.5,
+        "recall@3": 0.5,
+        "recall@5": 0.5,
+        "recall@10": 0.75,
+        "per_question": [
+          {
+            "id": "rpt_01",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_02",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_03",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_04",
+            "recall@1": true,
+            "recall@3": true,
+            "recall@5": true,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_05",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_06",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          },
+          {
+            "id": "rpt_07",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": false
+          },
+          {
+            "id": "rpt_08",
+            "recall@1": false,
+            "recall@3": false,
+            "recall@5": false,
+            "recall@10": true
+          }
+        ],
+        "document": "report",
+        "parser": "pymupdf_fast",
+        "retrieval": "hybrid",
+        "chunk_time": 3.848
+      }
+    ]
+  }
+]
